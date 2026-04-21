@@ -140,15 +140,15 @@ tbody td:first-child {
 }
 
 #data-table tbody td.resistance-tier-great-resist {
-  color: #ff6b6b;
-  font-weight: 600;
-  text-shadow: 0 0 8px rgba(255, 107, 107, 0.22);
+  color: #ff7b72;
+  font-weight: 700;
+  text-shadow: 0 0 8px rgba(255, 123, 114, 0.18);
 }
 
 #data-table tbody td.resistance-tier-resist {
-  color: #ff9c66;
+  color: #f0883e;
   font-weight: 600;
-  text-shadow: 0 0 8px rgba(255, 156, 102, 0.18);
+  text-shadow: 0 0 8px rgba(240, 136, 62, 0.14);
 }
 
 #data-table tbody td.resistance-tier-normal {
@@ -156,15 +156,15 @@ tbody td:first-child {
 }
 
 #data-table tbody td.resistance-tier-weak {
-  color: #7ee787;
+  color: #56d364;
   font-weight: 600;
-  text-shadow: 0 0 8px rgba(126, 231, 135, 0.2);
+  text-shadow: 0 0 8px rgba(86, 211, 100, 0.12);
 }
 
 #data-table tbody td.resistance-tier-great-weak {
-  color: #3fb950;
+  color: #7ee787;
   font-weight: 700;
-  text-shadow: 0 0 10px rgba(63, 185, 80, 0.24);
+  text-shadow: 0 0 8px rgba(126, 231, 135, 0.16);
 }
 
 .empty-state {
