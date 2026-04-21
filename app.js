@@ -1,0 +1,114 @@
+const data = window.MONSTER_RESISTANCE_DATA;
+
+const elements = {
+  title: document.querySelector("#page-title"),
+  subtitle: document.querySelector("#page-subtitle"),
+  sheetName: document.querySelector("#sheet-name"),
+  rowCount: document.querySelector("#row-count"),
+  legendText: document.querySelector("#legend-text"),
+  resultSummary: document.querySelector("#result-summary"),
+  searchInput: document.querySelector("#search-input"),
+  tableHead: document.querySelector("#table-head"),
+  tableBody: document.querySelector("#table-body"),
+};
+
+function normalizeText(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9\u4e00-\u9fff]+/g, "");
+}
+
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
+}
+
+function renderHeader(headers) {
+  elements.tableHead.innerHTML = `<tr>${headers
+    .map((header) => `<th>${escapeHtml(header)}</th>`)
+    .join("")}</tr>`;
+}
+
+function renderRows(rows) {
+  if (!rows.length) {
+    elements.tableBody.innerHTML = `<tr><td class="empty-state" colspan="${data.headers.length}">没有匹配结果</td></tr>`;
+    return;
+  }
+
+  elements.tableBody.innerHTML = rows
+    .map(
+      (row) => `
+        <tr>
+          ${row.values.map((value) => `<td>${escapeHtml(value)}</td>`).join("")}
+        </tr>
+      `
+    )
+    .join("");
+}
+
+function scoreRow(row, query) {
+  if (!query) {
+    return 0;
+  }
+
+  const search = row.search;
+  let score = 0;
+
+  if (search.nameNormalized === query) score = Math.max(score, 1200);
+  if (row.name.includes(query)) score = Math.max(score, 1100 - row.name.indexOf(query));
+  if (search.nameNormalized.startsWith(query)) score = Math.max(score, 1000);
+  if (search.nameNormalized.includes(query)) score = Math.max(score, 920);
+  if (search.namePinyin.startsWith(query)) score = Math.max(score, 860);
+  if (search.namePinyin.includes(query)) score = Math.max(score, 800);
+  if (search.nameInitials.startsWith(query)) score = Math.max(score, 760);
+  if (search.nameInitials.includes(query)) score = Math.max(score, 720);
+  if (search.namePinyinSuffixes.some((item) => item.startsWith(query))) score = Math.max(score, 700);
+  if (search.namePinyinSuffixes.some((item) => item.includes(query))) score = Math.max(score, 680);
+  if (search.rowNormalized.includes(query)) score = Math.max(score, 280);
+
+  return score;
+}
+
+function filterRows(query) {
+  const normalizedQuery = normalizeText(query);
+  if (!normalizedQuery) {
+    return [...data.rows].sort((a, b) => a.order - b.order);
+  }
+
+  return data.rows
+    .map((row) => ({ row, score: scoreRow(row, normalizedQuery) }))
+    .filter((item) => item.score > 0)
+    .sort((left, right) => right.score - left.score || left.row.order - right.row.order)
+    .map((item) => item.row);
+}
+
+function updateTable() {
+  const rows = filterRows(elements.searchInput.value);
+  renderRows(rows);
+  elements.resultSummary.textContent = `显示 ${rows.length} / ${data.rows.length} 条`;
+}
+
+function bootstrap() {
+  if (!data) {
+    elements.resultSummary.textContent = "数据加载失败";
+    return;
+  }
+
+  document.title = data.title || "怪物抗性表";
+  elements.title.textContent = data.title || "怪物抗性表";
+  elements.subtitle.textContent = "离线静态页面，直接打开 index.html 即可浏览和搜索整行抗性数据。";
+  elements.sheetName.textContent = data.sheetName || "-";
+  elements.rowCount.textContent = `${data.rows.length} 条`;
+  elements.legendText.textContent = data.legend.join(" / ") || "-";
+
+  renderHeader(data.headers);
+  updateTable();
+
+  elements.searchInput.addEventListener("input", updateTable);
+}
+
+bootstrap();

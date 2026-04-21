@@ -1,0 +1,4751 @@
+{
+  "title": "1.03 常见单位抗性、削韧表      by 虚空蛋黄酱\n图中数据为伤害倍率，数字越大说明受到伤害越高。",
+  "sheetName": "敌人属性",
+  "legend": [
+    "大抵抗",
+    "抵抗",
+    "正常",
+    "弱点",
+    "大弱点"
+  ],
+  "headers": [
+    "名称",
+    "普",
+    "打",
+    "斩",
+    "刺",
+    "魔",
+    "火",
+    "雷",
+    "圣",
+    "韧性",
+    "血",
+    "毒",
+    "腐败",
+    "冰",
+    "出现地点（暂未更新）",
+    "备注",
+    "抗性中位数"
+  ],
+  "rows": [
+    {
+      "id": 1,
+      "order": 1,
+      "sheetRow": 5,
+      "name": "训练场人偶士兵",
+      "values": [
+        "训练场人偶士兵",
+        "1",
+        "1.1",
+        "0.9",
+        "0.9",
+        "1",
+        "1.2",
+        "1",
+        "1",
+        "30",
+        "112",
+        "112",
+        "112",
+        "112",
+        "训练场",
+        "火1.25倍削韧",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "训练场人偶士兵",
+        "namePinyin": "xunlianchangrenoushibing",
+        "nameInitials": "xlcrosb",
+        "namePinyinSuffixes": [
+          "xunlianchangrenoushibing",
+          "lianchangrenoushibing",
+          "changrenoushibing",
+          "renoushibing",
+          "oushibing",
+          "shibing",
+          "bing"
+        ],
+        "rowNormalized": "训练场人偶士兵11109091121130112112112112训练场火125倍削韧1"
+      }
+    },
+    {
+      "id": 2,
+      "order": 2,
+      "sheetRow": 6,
+      "name": "海伦",
+      "values": [
+        "海伦",
+        "0.8",
+        "0.72",
+        "0.8",
+        "0.8",
+        "0.8",
+        "0.8",
+        "0.8",
+        "0.8",
+        "120",
+        "免疫",
+        "免疫",
+        "免疫",
+        "免疫",
+        "复仇者家人",
+        "造成35%伤害和5%削韧",
+        "0.8"
+      ],
+      "search": {
+        "nameNormalized": "海伦",
+        "namePinyin": "hailun",
+        "nameInitials": "hl",
+        "namePinyinSuffixes": [
+          "hailun",
+          "lun"
+        ],
+        "rowNormalized": "海伦08072080808080808120免疫免疫免疫免疫复仇者家人造成35伤害和5削韧08"
+      }
+    },
+    {
+      "id": 3,
+      "order": 3,
+      "sheetRow": 7,
+      "name": "弗雷德利克",
+      "values": [
+        "弗雷德利克",
+        "0.8",
+        "0.72",
+        "0.88",
+        "0.8",
+        "0.8",
+        "0.8",
+        "0.96",
+        "0.8",
+        "180",
+        "免疫",
+        "免疫",
+        "免疫",
+        "免疫",
+        "复仇者家人",
+        "造成40%伤害和5%削韧",
+        "0.8"
+      ],
+      "search": {
+        "nameNormalized": "弗雷德利克",
+        "namePinyin": "fuleidelike",
+        "nameInitials": "fldlk",
+        "namePinyinSuffixes": [
+          "fuleidelike",
+          "leidelike",
+          "delike",
+          "like",
+          "ke"
+        ],
+        "rowNormalized": "弗雷德利克0807208808080809608180免疫免疫免疫免疫复仇者家人造成40伤害和5削韧08"
+      }
+    },
+    {
+      "id": 4,
+      "order": 4,
+      "sheetRow": 8,
+      "name": "塞巴斯蒂安",
+      "values": [
+        "塞巴斯蒂安",
+        "0.72",
+        "1.12",
+        "0.72",
+        "0.52",
+        "0.64",
+        "0.64",
+        "0.48",
+        "1.12",
+        "180",
+        "免疫",
+        "免疫",
+        "免疫",
+        "免疫",
+        "复仇者家人",
+        "造成15%伤害和5%削韧",
+        "0.72"
+      ],
+      "search": {
+        "nameNormalized": "塞巴斯蒂安",
+        "namePinyin": "saibasidian",
+        "nameInitials": "sbsda",
+        "namePinyinSuffixes": [
+          "saibasidian",
+          "basidian",
+          "sidian",
+          "dian",
+          "an"
+        ],
+        "rowNormalized": "塞巴斯蒂安072112072052064064048112180免疫免疫免疫免疫复仇者家人造成15伤害和5削韧072"
+      }
+    },
+    {
+      "id": 5,
+      "order": 5,
+      "sheetRow": 9,
+      "name": "铁处女",
+      "values": [
+        "铁处女",
+        "0.9",
+        "1",
+        "0.9",
+        "0.9",
+        "1",
+        "0.8",
+        "1.2",
+        "0.8",
+        "80",
+        "免疫",
+        "免疫",
+        "免疫",
+        "免疫",
+        "要塞",
+        "雷3倍削韧；内部2倍伤害",
+        "0.9"
+      ],
+      "search": {
+        "nameNormalized": "铁处女",
+        "namePinyin": "tiechunv",
+        "nameInitials": "tcn",
+        "namePinyinSuffixes": [
+          "tiechunv",
+          "chunv",
+          "nv"
+        ],
+        "rowNormalized": "铁处女0910909108120880免疫免疫免疫免疫要塞雷3倍削韧内部2倍伤害09"
+      }
+    },
+    {
+      "id": 6,
+      "order": 6,
+      "sheetRow": 10,
+      "name": "结晶人",
+      "values": [
+        "结晶人",
+        "0.9",
+        "0.9",
+        "0.65",
+        "0.65",
+        "0.6",
+        "0.6",
+        "0.6",
+        "0.6",
+        "70",
+        "免疫",
+        "252",
+        "252",
+        "252",
+        "要塞、监牢",
+        "打跪地之前只有打击属性可以正常造成伤害；不会自然恢复韧性（但处决会恢复）",
+        "0.625"
+      ],
+      "search": {
+        "nameNormalized": "结晶人",
+        "namePinyin": "jiejingren",
+        "nameInitials": "jjr",
+        "namePinyinSuffixes": [
+          "jiejingren",
+          "jingren",
+          "ren"
+        ],
+        "rowNormalized": "结晶人09090650650606060670免疫252252252要塞监牢打跪地之前只有打击属性可以正常造成伤害不会自然恢复韧性但处决会恢复0625"
+      }
+    },
+    {
+      "id": 7,
+      "order": 7,
+      "sheetRow": 11,
+      "name": "葛瑞克骑士",
+      "values": [
+        "葛瑞克骑士",
+        "0.9",
+        "0.9",
+        "0.65",
+        "1",
+        "0.8",
+        "0.8",
+        "1",
+        "0.8",
+        "65",
+        "154",
+        "112",
+        "112",
+        "154",
+        "要塞、矿洞、雪山、腐败森林",
+        "",
+        "0.85"
+      ],
+      "search": {
+        "nameNormalized": "葛瑞克骑士",
+        "namePinyin": "geruikeqishi",
+        "nameInitials": "grkqs",
+        "namePinyinSuffixes": [
+          "geruikeqishi",
+          "ruikeqishi",
+          "keqishi",
+          "qishi",
+          "shi"
+        ],
+        "rowNormalized": "葛瑞克骑士09090651080810865154112112154要塞矿洞雪山腐败森林085"
+      }
+    },
+    {
+      "id": 8,
+      "order": 8,
+      "sheetRow": 12,
+      "name": "魔像守卫",
+      "values": [
+        "魔像守卫",
+        "0.9",
+        "1",
+        "0.9",
+        "0.9",
+        "0.8",
+        "0.6",
+        "0.6",
+        "0.6",
+        "120",
+        "免疫",
+        "免疫",
+        "免疫",
+        "免疫",
+        "要塞、教堂",
+        "发光部位2.5倍伤害，非发光部位0.8倍削韧",
+        "0.85"
+      ],
+      "search": {
+        "nameNormalized": "魔像守卫",
+        "namePinyin": "moxiangshouwei",
+        "nameInitials": "mxsw",
+        "namePinyinSuffixes": [
+          "moxiangshouwei",
+          "xiangshouwei",
+          "shouwei",
+          "wei"
+        ],
+        "rowNormalized": "魔像守卫091090908060606120免疫免疫免疫免疫要塞教堂发光部位25倍伤害非发光部位08倍削韧085"
+      }
+    },
+    {
+      "id": 9,
+      "order": 9,
+      "sheetRow": 13,
+      "name": "大神谕使者",
+      "values": [
+        "大神谕使者",
+        "1.1",
+        "0.9",
+        "1.1",
+        "1.1",
+        "1",
+        "0.8",
+        "0.8",
+        "0.8",
+        "65",
+        "84",
+        "154",
+        "154",
+        "112",
+        "教堂",
+        "",
+        "0.95"
+      ],
+      "search": {
+        "nameNormalized": "大神谕使者",
+        "namePinyin": "dashenyushizhe",
+        "nameInitials": "dsysz",
+        "namePinyinSuffixes": [
+          "dashenyushizhe",
+          "shenyushizhe",
+          "yushizhe",
+          "shizhe",
+          "zhe"
+        ],
+        "rowNormalized": "大神谕使者1109111110808086584154154112教堂095"
+      }
+    },
+    {
+      "id": 10,
+      "order": 10,
+      "sheetRow": 14,
+      "name": "火焰修士",
+      "values": [
+        "火焰修士",
+        "1",
+        "1",
+        "0.9",
+        "1",
+        "1",
+        "0.6",
+        "0.8",
+        "1.2",
+        "65",
+        "112",
+        "154",
+        "154",
+        "252",
+        "教堂、火山",
+        "圣1.25倍削韧",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "火焰修士",
+        "namePinyin": "huoyanxiushi",
+        "nameInitials": "hyxs",
+        "namePinyinSuffixes": [
+          "huoyanxiushi",
+          "yanxiushi",
+          "xiushi",
+          "shi"
+        ],
+        "rowNormalized": "火焰修士11091106081265112154154252教堂火山圣125倍削韧1"
+      }
+    },
+    {
+      "id": 11,
+      "order": 11,
+      "sheetRow": 15,
+      "name": "灵庙骑士",
+      "values": [
+        "灵庙骑士",
+        "0.9",
+        "0.9",
+        "0.65",
+        "1",
+        "0.8",
+        "0.8",
+        "1",
+        "1",
+        "65",
+        "免疫",
+        "免疫",
+        "免疫",
+        "免疫",
+        "教堂、隐城",
+        "",
+        "0.9"
+      ],
+      "search": {
+        "nameNormalized": "灵庙骑士",
+        "namePinyin": "lingmiaoqishi",
+        "nameInitials": "lmqs",
+        "namePinyinSuffixes": [
+          "lingmiaoqishi",
+          "miaoqishi",
+          "qishi",
+          "shi"
+        ],
+        "rowNormalized": "灵庙骑士0909065108081165免疫免疫免疫免疫教堂隐城09"
+      }
+    },
+    {
+      "id": 12,
+      "order": 12,
+      "sheetRow": 16,
+      "name": "大白金之子",
+      "values": [
+        "大白金之子",
+        "1.1",
+        "0.9",
+        "1.1",
+        "1.1",
+        "1",
+        "0.8",
+        "1.2",
+        "1.4",
+        "65",
+        "84",
+        "免疫",
+        "154",
+        "84",
+        "遗迹",
+        "雷1.25倍削韧，圣1.4倍削韧",
+        "1.1"
+      ],
+      "search": {
+        "nameNormalized": "大白金之子",
+        "namePinyin": "dabaijinzhizi",
+        "nameInitials": "dbjzz",
+        "namePinyinSuffixes": [
+          "dabaijinzhizi",
+          "baijinzhizi",
+          "jinzhizi",
+          "zhizi",
+          "zi"
+        ],
+        "rowNormalized": "大白金之子1109111110812146584免疫15484遗迹雷125倍削韧圣14倍削韧11"
+      }
+    },
+    {
+      "id": 13,
+      "order": 13,
+      "sheetRow": 17,
+      "name": "鲜血贵族",
+      "values": [
+        "鲜血贵族",
+        "1",
+        "1",
+        "1.1",
+        "1",
+        "0.8",
+        "0.6",
+        "0.8",
+        "0.8",
+        "65",
+        "84",
+        "112",
+        "112",
+        "112",
+        "遗迹",
+        "",
+        "0.9"
+      ],
+      "search": {
+        "nameNormalized": "鲜血贵族",
+        "namePinyin": "xianxueguizu",
+        "nameInitials": "xxgz",
+        "namePinyinSuffixes": [
+          "xianxueguizu",
+          "xueguizu",
+          "guizu",
+          "zu"
+        ],
+        "rowNormalized": "鲜血贵族11111080608086584112112112遗迹09"
+      }
+    },
+    {
+      "id": 14,
+      "order": 14,
+      "sheetRow": 18,
+      "name": "堕落调香师",
+      "values": [
+        "堕落调香师",
+        "1",
+        "0.9",
+        "1",
+        "1",
+        "0.8",
+        "0.8",
+        "0.8",
+        "0.8",
+        "65",
+        "84",
+        "252",
+        "252",
+        "112",
+        "遗迹",
+        "",
+        "0.85"
+      ],
+      "search": {
+        "nameNormalized": "堕落调香师",
+        "namePinyin": "duoluodiaoxiangshi",
+        "nameInitials": "dldxs",
+        "namePinyinSuffixes": [
+          "duoluodiaoxiangshi",
+          "luodiaoxiangshi",
+          "diaoxiangshi",
+          "xiangshi",
+          "shi"
+        ],
+        "rowNormalized": "堕落调香师10911080808086584252252112遗迹085"
+      }
+    },
+    {
+      "id": 15,
+      "order": 15,
+      "sheetRow": 19,
+      "name": "调香师",
+      "values": [
+        "调香师",
+        "1",
+        "0.9",
+        "1",
+        "1",
+        "0.6",
+        "0.6",
+        "0.6",
+        "1",
+        "65",
+        "84",
+        "252",
+        "252",
+        "84",
+        "遗迹",
+        "",
+        "0.95"
+      ],
+      "search": {
+        "nameNormalized": "调香师",
+        "namePinyin": "diaoxiangshi",
+        "nameInitials": "dxs",
+        "namePinyinSuffixes": [
+          "diaoxiangshi",
+          "xiangshi",
+          "shi"
+        ],
+        "rowNormalized": "调香师109110606061658425225284遗迹095"
+      }
+    },
+    {
+      "id": 16,
+      "order": 16,
+      "sheetRow": 20,
+      "name": "归树看门犬",
+      "values": [
+        "归树看门犬",
+        "0.65",
+        "0.9",
+        "0.65",
+        "0.65",
+        "0.6",
+        "0.6",
+        "0.6",
+        "0.6",
+        "80",
+        "免疫",
+        "免疫",
+        "免疫",
+        "免疫",
+        "遗迹",
+        "被结晶飞刀攻击后进入混乱状态",
+        "0.625"
+      ],
+      "search": {
+        "nameNormalized": "归树看门犬",
+        "namePinyin": "guishukanmenquan",
+        "nameInitials": "gskmq",
+        "namePinyinSuffixes": [
+          "guishukanmenquan",
+          "shukanmenquan",
+          "kanmenquan",
+          "menquan",
+          "quan"
+        ],
+        "rowNormalized": "归树看门犬065090650650606060680免疫免疫免疫免疫遗迹被结晶飞刀攻击后进入混乱状态0625"
+      }
+    },
+    {
+      "id": 17,
+      "order": 17,
+      "sheetRow": 21,
+      "name": "战斗法师",
+      "values": [
+        "战斗法师",
+        "1",
+        "0.9",
+        "1",
+        "1",
+        "0.6",
+        "0.8",
+        "0.8",
+        "1",
+        "65",
+        "112",
+        "84",
+        "84",
+        "112",
+        "遗迹",
+        "",
+        "0.95"
+      ],
+      "search": {
+        "nameNormalized": "战斗法师",
+        "namePinyin": "zhandoufashi",
+        "nameInitials": "zdfs",
+        "namePinyinSuffixes": [
+          "zhandoufashi",
+          "doufashi",
+          "fashi",
+          "shi"
+        ],
+        "rowNormalized": "战斗法师109110608081651128484112遗迹095"
+      }
+    },
+    {
+      "id": 18,
+      "order": 18,
+      "sheetRow": 22,
+      "name": "卢恩熊",
+      "values": [
+        "卢恩熊",
+        "1",
+        "1",
+        "1.1",
+        "1",
+        "1",
+        "1.2",
+        "1",
+        "1",
+        "80",
+        "252",
+        "154",
+        "154",
+        "252",
+        "遗迹",
+        "火1.25倍削韧",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "卢恩熊",
+        "namePinyin": "luenxiong",
+        "nameInitials": "lex",
+        "namePinyinSuffixes": [
+          "luenxiong",
+          "enxiong",
+          "xiong"
+        ],
+        "rowNormalized": "卢恩熊111111121180252154154252遗迹火125倍削韧1"
+      }
+    },
+    {
+      "id": 19,
+      "order": 19,
+      "sheetRow": 23,
+      "name": "白金之子射手",
+      "values": [
+        "白金之子射手",
+        "1",
+        "0.9",
+        "1",
+        "1",
+        "0.8",
+        "1",
+        "1",
+        "1.4",
+        "50",
+        "154",
+        "免疫",
+        "112",
+        "252",
+        "遗迹",
+        "圣1.4倍削韧",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "白金之子射手",
+        "namePinyin": "baijinzhizisheshou",
+        "nameInitials": "bjzzss",
+        "namePinyinSuffixes": [
+          "baijinzhizisheshou",
+          "jinzhizisheshou",
+          "zhizisheshou",
+          "zisheshou",
+          "sheshou",
+          "shou"
+        ],
+        "rowNormalized": "白金之子射手1091108111450154免疫112252遗迹圣14倍削韧1"
+      }
+    },
+    {
+      "id": 20,
+      "order": 20,
+      "sheetRow": 24,
+      "name": "兽人（大）",
+      "values": [
+        "兽人（大）",
+        "1",
+        "1",
+        "1.1",
+        "1",
+        "1",
+        "1.2",
+        "0.8",
+        "1",
+        "65",
+        "154",
+        "112",
+        "112",
+        "154",
+        "遗迹、监牢",
+        "火1.25倍削韧",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "兽人大",
+        "namePinyin": "shourenda",
+        "nameInitials": "srd",
+        "namePinyinSuffixes": [
+          "shourenda",
+          "renda",
+          "da"
+        ],
+        "rowNormalized": "兽人大1111111208165154112112154遗迹监牢火125倍削韧1"
+      }
+    },
+    {
+      "id": 21,
+      "order": 21,
+      "sheetRow": 25,
+      "name": "蚯蚓脸",
+      "values": [
+        "蚯蚓脸",
+        "1",
+        "1",
+        "1.1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "0.6",
+        "80",
+        "154",
+        "154",
+        "154",
+        "154",
+        "遗迹、第一夜",
+        "",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "蚯蚓脸",
+        "namePinyin": "qiuyinlian",
+        "nameInitials": "qyl",
+        "namePinyinSuffixes": [
+          "qiuyinlian",
+          "yinlian",
+          "lian"
+        ],
+        "rowNormalized": "蚯蚓脸111111110680154154154154遗迹第一夜1"
+      }
+    },
+    {
+      "id": 22,
+      "order": 22,
+      "sheetRow": 26,
+      "name": "萨米尔的古英雄",
+      "values": [
+        "萨米尔的古英雄",
+        "0.9",
+        "0.9",
+        "0.9",
+        "1",
+        "1",
+        "1.2",
+        "1.2",
+        "1",
+        "80",
+        "252",
+        "154",
+        "154",
+        "542",
+        "遗迹、野外蓝名、主城地下",
+        "火、雷1.25倍削韧",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "萨米尔的古英雄",
+        "namePinyin": "samierdeguyingxiong",
+        "nameInitials": "smedgyx",
+        "namePinyinSuffixes": [
+          "samierdeguyingxiong",
+          "mierdeguyingxiong",
+          "erdeguyingxiong",
+          "deguyingxiong",
+          "guyingxiong",
+          "yingxiong",
+          "xiong"
+        ],
+        "rowNormalized": "萨米尔的古英雄090909111212180252154154542遗迹野外蓝名主城地下火雷125倍削韧1"
+      }
+    },
+    {
+      "id": 23,
+      "order": 23,
+      "sheetRow": 27,
+      "name": "火焰战车",
+      "values": [
+        "火焰战车",
+        "0.9",
+        "1",
+        "0.9",
+        "0.9",
+        "0.8",
+        "0.6",
+        "0.8",
+        "0.8",
+        "240",
+        "154",
+        "252",
+        "252",
+        "252",
+        "营地、火山",
+        "可以直接跳到头上处决秒杀",
+        "0.85"
+      ],
+      "search": {
+        "nameNormalized": "火焰战车",
+        "namePinyin": "huoyanzhanche",
+        "nameInitials": "hyzc",
+        "namePinyinSuffixes": [
+          "huoyanzhanche",
+          "yanzhanche",
+          "zhanche",
+          "che"
+        ],
+        "rowNormalized": "火焰战车091090908060808240154252252252营地火山可以直接跳到头上处决秒杀085"
+      }
+    },
+    {
+      "id": 24,
+      "order": 24,
+      "sheetRow": 28,
+      "name": "癫火山妖",
+      "values": [
+        "癫火山妖",
+        "1",
+        "1",
+        "1.1",
+        "1",
+        "1",
+        "0.8",
+        "1",
+        "1",
+        "65",
+        "112",
+        "112",
+        "112",
+        "154",
+        "营地",
+        "",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "癫火山妖",
+        "namePinyin": "dianhuoshanyao",
+        "nameInitials": "dhsy",
+        "namePinyinSuffixes": [
+          "dianhuoshanyao",
+          "huoshanyao",
+          "shanyao",
+          "yao"
+        ],
+        "rowNormalized": "癫火山妖111111081165112112112154营地1"
+      }
+    },
+    {
+      "id": 25,
+      "order": 25,
+      "sheetRow": 29,
+      "name": "红狮子骑士",
+      "values": [
+        "红狮子骑士",
+        "0.9",
+        "0.9",
+        "0.65",
+        "1",
+        "0.8",
+        "0.6",
+        "1",
+        "0.8",
+        "65",
+        "154",
+        "112",
+        "112",
+        "154",
+        "营地",
+        "",
+        "0.85"
+      ],
+      "search": {
+        "nameNormalized": "红狮子骑士",
+        "namePinyin": "hongshiziqishi",
+        "nameInitials": "hszqs",
+        "namePinyinSuffixes": [
+          "hongshiziqishi",
+          "shiziqishi",
+          "ziqishi",
+          "qishi",
+          "shi"
+        ],
+        "rowNormalized": "红狮子骑士09090651080610865154112112154营地085"
+      }
+    },
+    {
+      "id": 26,
+      "order": 26,
+      "sheetRow": 30,
+      "name": "罗德尔骑士",
+      "values": [
+        "罗德尔骑士",
+        "0.9",
+        "0.9",
+        "0.65",
+        "1",
+        "0.8",
+        "0.8",
+        "0.6",
+        "0.8",
+        "65",
+        "154",
+        "112",
+        "112",
+        "154",
+        "营地",
+        "",
+        "0.8"
+      ],
+      "search": {
+        "nameNormalized": "罗德尔骑士",
+        "namePinyin": "luodeerqishi",
+        "nameInitials": "ldeqs",
+        "namePinyinSuffixes": [
+          "luodeerqishi",
+          "deerqishi",
+          "erqishi",
+          "qishi",
+          "shi"
+        ],
+        "rowNormalized": "罗德尔骑士090906510808060865154112112154营地08"
+      }
+    },
+    {
+      "id": 27,
+      "order": 27,
+      "sheetRow": 31,
+      "name": "失乡骑士",
+      "values": [
+        "失乡骑士",
+        "0.9",
+        "0.9",
+        "0.65",
+        "1",
+        "0.8",
+        "0.8",
+        "1",
+        "0.8",
+        "65或75",
+        "154",
+        "112",
+        "112",
+        "154",
+        "营地、监牢、主城",
+        "红眼版为75韧",
+        "0.85"
+      ],
+      "search": {
+        "nameNormalized": "失乡骑士",
+        "namePinyin": "shixiangqishi",
+        "nameInitials": "sxqs",
+        "namePinyinSuffixes": [
+          "shixiangqishi",
+          "xiangqishi",
+          "qishi",
+          "shi"
+        ],
+        "rowNormalized": "失乡骑士09090651080810865或75154112112154营地监牢主城红眼版为75韧085"
+      }
+    },
+    {
+      "id": 28,
+      "order": 28,
+      "sheetRow": 32,
+      "name": "龙飨失乡骑士",
+      "values": [
+        "龙飨失乡骑士",
+        "0.9",
+        "0.9",
+        "0.65",
+        "1",
+        "0.8",
+        "0.8",
+        "1.4",
+        "0.8",
+        "65",
+        "154",
+        "112",
+        "112",
+        "154",
+        "",
+        "龙类；雷1.4倍削韧",
+        "0.85"
+      ],
+      "search": {
+        "nameNormalized": "龙飨失乡骑士",
+        "namePinyin": "longxiangshixiangqishi",
+        "nameInitials": "lxsxqs",
+        "namePinyinSuffixes": [
+          "longxiangshixiangqishi",
+          "xiangshixiangqishi",
+          "shixiangqishi",
+          "xiangqishi",
+          "qishi",
+          "shi"
+        ],
+        "rowNormalized": "龙飨失乡骑士090906510808140865154112112154龙类雷14倍削韧085"
+      }
+    },
+    {
+      "id": 29,
+      "order": 29,
+      "sheetRow": 33,
+      "name": "老狮子",
+      "values": [
+        "老狮子",
+        "1",
+        "1",
+        "1.1",
+        "1",
+        "1",
+        "1.2",
+        "1",
+        "1",
+        "80",
+        "252",
+        "154",
+        "154",
+        "252",
+        "营地、野外蓝名、主城",
+        "火1.25倍削韧",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "老狮子",
+        "namePinyin": "laoshizi",
+        "nameInitials": "lsz",
+        "namePinyinSuffixes": [
+          "laoshizi",
+          "shizi",
+          "zi"
+        ],
+        "rowNormalized": "老狮子111111121180252154154252营地野外蓝名主城火125倍削韧1"
+      }
+    },
+    {
+      "id": 30,
+      "order": 30,
+      "sheetRow": 34,
+      "name": "发狂南瓜头",
+      "values": [
+        "发狂南瓜头",
+        "1",
+        "0.9",
+        "1.1",
+        "1",
+        "1",
+        "1",
+        "1.2",
+        "1",
+        "65",
+        "84",
+        "112",
+        "112",
+        "84",
+        "矿洞",
+        "雷1.25倍削韧，头0.2倍伤害",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "发狂南瓜头",
+        "namePinyin": "fakuangnanguatou",
+        "nameInitials": "fkngt",
+        "namePinyinSuffixes": [
+          "fakuangnanguatou",
+          "kuangnanguatou",
+          "nanguatou",
+          "guatou",
+          "tou"
+        ],
+        "rowNormalized": "发狂南瓜头10911111121658411211284矿洞雷125倍削韧头02倍伤害1"
+      }
+    },
+    {
+      "id": 31,
+      "order": 31,
+      "sheetRow": 35,
+      "name": "山妖",
+      "values": [
+        "山妖",
+        "1",
+        "1",
+        "1.1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "65",
+        "112",
+        "112",
+        "112",
+        "154",
+        "主城、矿洞",
+        "头2倍伤害",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "山妖",
+        "namePinyin": "shanyao",
+        "nameInitials": "sy",
+        "namePinyinSuffixes": [
+          "shanyao",
+          "yao"
+        ],
+        "rowNormalized": "山妖11111111165112112112154主城矿洞头2倍伤害1"
+      }
+    },
+    {
+      "id": 32,
+      "order": 32,
+      "sheetRow": 36,
+      "name": "恶兆之子",
+      "values": [
+        "恶兆之子",
+        "1",
+        "1",
+        "1.1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "0.8",
+        "65",
+        "112",
+        "112",
+        "112",
+        "112",
+        "监牢",
+        "",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "恶兆之子",
+        "namePinyin": "ezhaozhizi",
+        "nameInitials": "ezzz",
+        "namePinyinSuffixes": [
+          "ezhaozhizi",
+          "zhaozhizi",
+          "zhizi",
+          "zi"
+        ],
+        "rowNormalized": "恶兆之子111111110865112112112112监牢1"
+      }
+    },
+    {
+      "id": 33,
+      "order": 33,
+      "sheetRow": 37,
+      "name": "诺克斯战士",
+      "values": [
+        "诺克斯战士",
+        "1",
+        "1",
+        "1.1",
+        "1",
+        "0.8",
+        "1",
+        "1",
+        "1.2",
+        "65",
+        "154",
+        "154",
+        "154",
+        "154",
+        "监牢",
+        "",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "诺克斯战士",
+        "namePinyin": "nuokesizhanshi",
+        "nameInitials": "nkszs",
+        "namePinyinSuffixes": [
+          "nuokesizhanshi",
+          "kesizhanshi",
+          "sizhanshi",
+          "zhanshi",
+          "shi"
+        ],
+        "rowNormalized": "诺克斯战士1111108111265154154154154监牢1"
+      }
+    },
+    {
+      "id": 34,
+      "order": 34,
+      "sheetRow": 38,
+      "name": "守墓斗士",
+      "values": [
+        "守墓斗士",
+        "1",
+        "1",
+        "1.1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "65",
+        "84",
+        "112",
+        "112",
+        "112",
+        "监牢",
+        "",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "守墓斗士",
+        "namePinyin": "shoumudoushi",
+        "nameInitials": "smds",
+        "namePinyinSuffixes": [
+          "shoumudoushi",
+          "mudoushi",
+          "doushi",
+          "shi"
+        ],
+        "rowNormalized": "守墓斗士1111111116584112112112监牢1"
+      }
+    },
+    {
+      "id": 35,
+      "order": 35,
+      "sheetRow": 39,
+      "name": "混种（大）",
+      "values": [
+        "混种（大）",
+        "1",
+        "1",
+        "0.9",
+        "1.1",
+        "1",
+        "1.2",
+        "1",
+        "1",
+        "65",
+        "112",
+        "112",
+        "112",
+        "112",
+        "监牢",
+        "",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "混种大",
+        "namePinyin": "hunzhongda",
+        "nameInitials": "hzd",
+        "namePinyinSuffixes": [
+          "hunzhongda",
+          "zhongda",
+          "da"
+        ],
+        "rowNormalized": "混种大1109111121165112112112112监牢1"
+      }
+    },
+    {
+      "id": 36,
+      "order": 36,
+      "sheetRow": 40,
+      "name": "石肤古王",
+      "values": [
+        "石肤古王",
+        "0.9",
+        "0.9",
+        "0.9",
+        "0.9",
+        "0.8",
+        "0.8",
+        "0.8",
+        "0.8",
+        "65",
+        "154",
+        "154",
+        "154",
+        "免疫",
+        "监牢",
+        "外星生物类",
+        "0.85"
+      ],
+      "search": {
+        "nameNormalized": "石肤古王",
+        "namePinyin": "shifuguwang",
+        "nameInitials": "sfgw",
+        "namePinyinSuffixes": [
+          "shifuguwang",
+          "fuguwang",
+          "guwang",
+          "wang"
+        ],
+        "rowNormalized": "石肤古王090909090808080865154154154免疫监牢外星生物类085"
+      }
+    },
+    {
+      "id": 37,
+      "order": 37,
+      "sheetRow": 41,
+      "name": "猎犬骑士",
+      "values": [
+        "猎犬骑士",
+        "0.9",
+        "0.9",
+        "0.9",
+        "1",
+        "1",
+        "1",
+        "1.2",
+        "1",
+        "65",
+        "154",
+        "154",
+        "154",
+        "154",
+        "监牢",
+        "雷1.25倍削韧",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "猎犬骑士",
+        "namePinyin": "liequanqishi",
+        "nameInitials": "lqqs",
+        "namePinyinSuffixes": [
+          "liequanqishi",
+          "quanqishi",
+          "qishi",
+          "shi"
+        ],
+        "rowNormalized": "猎犬骑士09090911112165154154154154监牢雷125倍削韧1"
+      }
+    },
+    {
+      "id": 38,
+      "order": 38,
+      "sheetRow": 42,
+      "name": "熔炉骑士",
+      "values": [
+        "熔炉骑士",
+        "0.65",
+        "0.65",
+        "0.65",
+        "0.65",
+        "0.6",
+        "0.8",
+        "0.8",
+        "0.6",
+        "80",
+        "免疫",
+        "252",
+        "252",
+        "252",
+        "监牢、主城、第二夜",
+        "",
+        "0.65"
+      ],
+      "search": {
+        "nameNormalized": "熔炉骑士",
+        "namePinyin": "rongluqishi",
+        "nameInitials": "rlqs",
+        "namePinyinSuffixes": [
+          "rongluqishi",
+          "luqishi",
+          "qishi",
+          "shi"
+        ],
+        "rowNormalized": "熔炉骑士0650650650650608080680免疫252252252监牢主城第二夜065"
+      }
+    },
+    {
+      "id": 39,
+      "order": 39,
+      "sheetRow": 43,
+      "name": "龙人士兵",
+      "values": [
+        "龙人士兵",
+        "0.9",
+        "0.9",
+        "1",
+        "0.9",
+        "0.8",
+        "0.8",
+        "0.6",
+        "0.8",
+        "120",
+        "252",
+        "252",
+        "252",
+        "542",
+        "监牢、隐城、第二夜",
+        "不属于龙类；头1.3倍伤害",
+        "0.85"
+      ],
+      "search": {
+        "nameNormalized": "龙人士兵",
+        "namePinyin": "longrenshibing",
+        "nameInitials": "lrsb",
+        "namePinyinSuffixes": [
+          "longrenshibing",
+          "renshibing",
+          "shibing",
+          "bing"
+        ],
+        "rowNormalized": "龙人士兵090910908080608120252252252542监牢隐城第二夜不属于龙类头13倍伤害085"
+      }
+    },
+    {
+      "id": 40,
+      "order": 40,
+      "sheetRow": 44,
+      "name": "神皮使徒",
+      "values": [
+        "神皮使徒",
+        "1",
+        "0.9",
+        "1.1",
+        "1",
+        "0.8",
+        "0.6",
+        "0.8",
+        "0.6",
+        "80",
+        "112",
+        "154",
+        "154",
+        "154",
+        "监牢、第二夜",
+        "",
+        "0.85"
+      ],
+      "search": {
+        "nameNormalized": "神皮使徒",
+        "namePinyin": "shenpishitu",
+        "nameInitials": "spst",
+        "namePinyinSuffixes": [
+          "shenpishitu",
+          "pishitu",
+          "shitu",
+          "tu"
+        ],
+        "rowNormalized": "神皮使徒1091110806080680112154154154监牢第二夜085"
+      }
+    },
+    {
+      "id": 41,
+      "order": 41,
+      "sheetRow": 45,
+      "name": "神皮贵族",
+      "values": [
+        "神皮贵族",
+        "1",
+        "0.65",
+        "1.1",
+        "1",
+        "0.8",
+        "0.6",
+        "0.8",
+        "0.6",
+        "80",
+        "112",
+        "154",
+        "154",
+        "154",
+        "监牢、第二夜",
+        "",
+        "0.8"
+      ],
+      "search": {
+        "nameNormalized": "神皮贵族",
+        "namePinyin": "shenpiguizu",
+        "nameInitials": "spgz",
+        "namePinyinSuffixes": [
+          "shenpiguizu",
+          "piguizu",
+          "guizu",
+          "zu"
+        ],
+        "rowNormalized": "神皮贵族10651110806080680112154154154监牢第二夜08"
+      }
+    },
+    {
+      "id": 42,
+      "order": 42,
+      "sheetRow": 46,
+      "name": "古龙",
+      "values": [
+        "古龙",
+        "0.65",
+        "0.65",
+        "0.65",
+        "0.9",
+        "0.6",
+        "0.6",
+        "0.2",
+        "0.6",
+        "120",
+        "252",
+        "252",
+        "252",
+        "252",
+        "监牢、第二夜",
+        "古龙类；只受到0.2倍削韧（等效韧性600），头2倍伤害",
+        "0.625"
+      ],
+      "search": {
+        "nameNormalized": "古龙",
+        "namePinyin": "gulong",
+        "nameInitials": "gl",
+        "namePinyinSuffixes": [
+          "gulong",
+          "long"
+        ],
+        "rowNormalized": "古龙0650650650906060206120252252252252监牢第二夜古龙类只受到02倍削韧等效韧性600头2倍伤害0625"
+      }
+    },
+    {
+      "id": 43,
+      "order": 43,
+      "sheetRow": 47,
+      "name": "死亡仪式鸟",
+      "values": [
+        "死亡仪式鸟",
+        "0.9",
+        "1.4",
+        "0.9",
+        "0.65",
+        "0.8",
+        "0.8",
+        "0.6",
+        "1.4",
+        "120",
+        "免疫",
+        "免疫",
+        "252",
+        "免疫",
+        "监牢、野外红名、主城楼顶、腐败森林、第二夜",
+        "死诞者类；圣1.4倍削韧；头1.3倍伤害",
+        "0.85"
+      ],
+      "search": {
+        "nameNormalized": "死亡仪式鸟",
+        "namePinyin": "siwangyishiniao",
+        "nameInitials": "swysn",
+        "namePinyinSuffixes": [
+          "siwangyishiniao",
+          "wangyishiniao",
+          "yishiniao",
+          "shiniao",
+          "niao"
+        ],
+        "rowNormalized": "死亡仪式鸟09140906508080614120免疫免疫252免疫监牢野外红名主城楼顶腐败森林第二夜死诞者类圣14倍削韧头13倍伤害085"
+      }
+    },
+    {
+      "id": 44,
+      "order": 44,
+      "sheetRow": 48,
+      "name": "米兰达的花",
+      "values": [
+        "米兰达的花",
+        "1",
+        "0.65",
+        "1.4",
+        "1",
+        "1",
+        "1.4",
+        "0.6",
+        "0.6",
+        "100",
+        "252",
+        "542",
+        "252",
+        "63",
+        "野外蓝名、遗迹",
+        "火1.4倍削韧；头1.3倍伤害",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "米兰达的花",
+        "namePinyin": "milandadehua",
+        "nameInitials": "mlddh",
+        "namePinyinSuffixes": [
+          "milandadehua",
+          "landadehua",
+          "dadehua",
+          "dehua",
+          "hua"
+        ],
+        "rowNormalized": "米兰达的花1065141114060610025254225263野外蓝名遗迹火14倍削韧头13倍伤害1"
+      }
+    },
+    {
+      "id": 45,
+      "order": 45,
+      "sheetRow": 49,
+      "name": "黑夜骑兵",
+      "values": [
+        "黑夜骑兵",
+        "0.65",
+        "0.65",
+        "0.65",
+        "0.9",
+        "0.6",
+        "0.6",
+        "0.8",
+        "0.6",
+        "80",
+        "252",
+        "154",
+        "154",
+        "252",
+        "野外蓝名、第一夜",
+        "被打下马之前无限韧性",
+        "0.65"
+      ],
+      "search": {
+        "nameNormalized": "黑夜骑兵",
+        "namePinyin": "heiyeqibing",
+        "nameInitials": "hyqb",
+        "namePinyinSuffixes": [
+          "heiyeqibing",
+          "yeqibing",
+          "qibing",
+          "bing"
+        ],
+        "rowNormalized": "黑夜骑兵065065065090606080680252154154252野外蓝名第一夜被打下马之前无限韧性065"
+      }
+    },
+    {
+      "id": 46,
+      "order": 46,
+      "sheetRow": 50,
+      "name": "黑夜骑兵的马",
+      "values": [
+        "黑夜骑兵的马",
+        "0.9",
+        "0.9",
+        "1",
+        "0.9",
+        "0.8",
+        "0.8",
+        "0.8",
+        "0.8",
+        "65",
+        "154",
+        "154",
+        "154",
+        "154",
+        "野外蓝名、第一夜",
+        "回韧时间极长，只受到0.5倍削韧（等效韧性130）",
+        "0.85"
+      ],
+      "search": {
+        "nameNormalized": "黑夜骑兵的马",
+        "namePinyin": "heiyeqibingdema",
+        "nameInitials": "hyqbdm",
+        "namePinyinSuffixes": [
+          "heiyeqibingdema",
+          "yeqibingdema",
+          "qibingdema",
+          "bingdema",
+          "dema",
+          "ma"
+        ],
+        "rowNormalized": "黑夜骑兵的马09091090808080865154154154154野外蓝名第一夜回韧时间极长只受到05倍削韧等效韧性130085"
+      }
+    },
+    {
+      "id": 47,
+      "order": 47,
+      "sheetRow": 51,
+      "name": "狮子混种",
+      "values": [
+        "狮子混种",
+        "0.9",
+        "0.9",
+        "1",
+        "0.9",
+        "0.8",
+        "1",
+        "0.8",
+        "0.8",
+        "80",
+        "154",
+        "154",
+        "154",
+        "154",
+        "野外蓝名、主城地下",
+        "",
+        "0.9"
+      ],
+      "search": {
+        "nameNormalized": "狮子混种",
+        "namePinyin": "shizihunzhong",
+        "nameInitials": "szhz",
+        "namePinyinSuffixes": [
+          "shizihunzhong",
+          "zihunzhong",
+          "hunzhong",
+          "zhong"
+        ],
+        "rowNormalized": "狮子混种0909109081080880154154154154野外蓝名主城地下09"
+      }
+    },
+    {
+      "id": 48,
+      "order": 48,
+      "sheetRow": 52,
+      "name": "王夫的红狼",
+      "values": [
+        "王夫的红狼",
+        "1",
+        "1",
+        "1.1",
+        "1",
+        "0.6",
+        "0.8",
+        "0.8",
+        "0.8",
+        "120",
+        "252",
+        "154",
+        "154",
+        "252",
+        "野外蓝名、主城地下、火山",
+        "",
+        "0.9"
+      ],
+      "search": {
+        "nameNormalized": "王夫的红狼",
+        "namePinyin": "wangfudehonglang",
+        "nameInitials": "wfdhl",
+        "namePinyinSuffixes": [
+          "wangfudehonglang",
+          "fudehonglang",
+          "dehonglang",
+          "honglang",
+          "lang"
+        ],
+        "rowNormalized": "王夫的红狼1111106080808120252154154252野外蓝名主城地下火山09"
+      }
+    },
+    {
+      "id": 49,
+      "order": 49,
+      "sheetRow": 53,
+      "name": "接肢贵族",
+      "values": [
+        "接肢贵族",
+        "1",
+        "1",
+        "1.1",
+        "1",
+        "0.8",
+        "0.8",
+        "0.8",
+        "0.8",
+        "80",
+        "112",
+        "154",
+        "154",
+        "112",
+        "野外蓝名、主城地下",
+        "",
+        "0.9"
+      ],
+      "search": {
+        "nameNormalized": "接肢贵族",
+        "namePinyin": "jiezhiguizu",
+        "nameInitials": "jzgz",
+        "namePinyinSuffixes": [
+          "jiezhiguizu",
+          "zhiguizu",
+          "guizu",
+          "zu"
+        ],
+        "rowNormalized": "接肢贵族111110808080880112154154112野外蓝名主城地下09"
+      }
+    },
+    {
+      "id": 50,
+      "order": 50,
+      "sheetRow": 54,
+      "name": "黑刀刺客",
+      "values": [
+        "黑刀刺客",
+        "0.9",
+        "0.9",
+        "0.9",
+        "0.65",
+        "0.8",
+        "0.8",
+        "0.8",
+        "0.6",
+        "80",
+        "免疫",
+        "免疫",
+        "免疫",
+        "154",
+        "野外蓝名、主城地下、隐城",
+        "",
+        "0.8"
+      ],
+      "search": {
+        "nameNormalized": "黑刀刺客",
+        "namePinyin": "heidaocike",
+        "nameInitials": "hdck",
+        "namePinyinSuffixes": [
+          "heidaocike",
+          "daocike",
+          "cike",
+          "ke"
+        ],
+        "rowNormalized": "黑刀刺客0909090650808080680免疫免疫免疫154野外蓝名主城地下隐城08"
+      }
+    },
+    {
+      "id": 51,
+      "order": 51,
+      "sheetRow": 55,
+      "name": "亚人女王",
+      "values": [
+        "亚人女王",
+        "1",
+        "1",
+        "1.1",
+        "1",
+        "1",
+        "1.2",
+        "1",
+        "1",
+        "80",
+        "112",
+        "84",
+        "84",
+        "112",
+        "野外蓝名、火山、第一夜",
+        "火1.25倍削韧；毒、腐败1.1倍削韧",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "亚人女王",
+        "namePinyin": "yarennvwang",
+        "nameInitials": "yrnw",
+        "namePinyinSuffixes": [
+          "yarennvwang",
+          "rennvwang",
+          "nvwang",
+          "wang"
+        ],
+        "rowNormalized": "亚人女王1111111211801128484112野外蓝名火山第一夜火125倍削韧毒腐败11倍削韧1"
+      }
+    },
+    {
+      "id": 52,
+      "order": 52,
+      "sheetRow": 56,
+      "name": "黄金河马",
+      "values": [
+        "黄金河马",
+        "1",
+        "1",
+        "1.1",
+        "1",
+        "1",
+        "1.2",
+        "1.2",
+        "1",
+        "80",
+        "252",
+        "154",
+        "154",
+        "252",
+        "野外蓝名、隐城、第二夜",
+        "火、雷1.25倍削韧",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "黄金河马",
+        "namePinyin": "huangjinhema",
+        "nameInitials": "hjhm",
+        "namePinyinSuffixes": [
+          "huangjinhema",
+          "jinhema",
+          "hema",
+          "ma"
+        ],
+        "rowNormalized": "黄金河马1111111212180252154154252野外蓝名隐城第二夜火雷125倍削韧1"
+      }
+    },
+    {
+      "id": 53,
+      "order": 53,
+      "sheetRow": 57,
+      "name": "王室幽魂",
+      "values": [
+        "王室幽魂",
+        "1",
+        "1",
+        "1.1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "0.6",
+        "70或100",
+        "154",
+        "154",
+        "154",
+        "154",
+        "野外蓝名、主城地下、隐城、第一夜",
+        "只有隐城的是70韧；可被治疗祷告伤害，并出现硬直",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "王室幽魂",
+        "namePinyin": "wangshiyouhun",
+        "nameInitials": "wsyh",
+        "namePinyinSuffixes": [
+          "wangshiyouhun",
+          "shiyouhun",
+          "youhun",
+          "hun"
+        ],
+        "rowNormalized": "王室幽魂111111110670或100154154154154野外蓝名主城地下隐城第一夜只有隐城的是70韧可被治疗祷告伤害并出现硬直1"
+      }
+    },
+    {
+      "id": 54,
+      "order": 54,
+      "sheetRow": 58,
+      "name": "铃珠猎人",
+      "values": [
+        "铃珠猎人",
+        "0.65",
+        "0.65",
+        "0.65",
+        "0.9",
+        "0.6",
+        "0.6",
+        "0.8",
+        "0.6",
+        "80",
+        "252",
+        "154",
+        "154",
+        "252",
+        "野外红名、主城地下、主城楼顶、腐败森林、第一夜",
+        "",
+        "0.65"
+      ],
+      "search": {
+        "nameNormalized": "铃珠猎人",
+        "namePinyin": "lingzhulieren",
+        "nameInitials": "lzlr",
+        "namePinyinSuffixes": [
+          "lingzhulieren",
+          "zhulieren",
+          "lieren",
+          "ren"
+        ],
+        "rowNormalized": "铃珠猎人065065065090606080680252154154252野外红名主城地下主城楼顶腐败森林第一夜065"
+      }
+    },
+    {
+      "id": 55,
+      "order": 55,
+      "sheetRow": 59,
+      "name": "腐败树灵",
+      "values": [
+        "腐败树灵",
+        "1",
+        "1",
+        "1",
+        "1",
+        "0.8",
+        "1.2",
+        "0.8",
+        "0.6",
+        "120",
+        "252",
+        "252",
+        "252",
+        "112",
+        "野外红名、主城楼顶、腐败森林、第一夜",
+        "火1.25倍削韧；头1.5倍伤害",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "腐败树灵",
+        "namePinyin": "fubaishuling",
+        "nameInitials": "fbsl",
+        "namePinyinSuffixes": [
+          "fubaishuling",
+          "baishuling",
+          "shuling",
+          "ling"
+        ],
+        "rowNormalized": "腐败树灵111108120806120252252252112野外红名主城楼顶腐败森林第一夜火125倍削韧头15倍伤害1"
+      }
+    },
+    {
+      "id": 56,
+      "order": 56,
+      "sheetRow": 60,
+      "name": "祖灵",
+      "values": [
+        "祖灵",
+        "1",
+        "1",
+        "1.1",
+        "1",
+        "0.8",
+        "1.2",
+        "1",
+        "1.2",
+        "120",
+        "542",
+        "542",
+        "542",
+        "542",
+        "野外红名、主城楼顶、腐败森林",
+        "火、圣1.25倍削韧；头1.3倍伤害",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "祖灵",
+        "namePinyin": "zuling",
+        "nameInitials": "zl",
+        "namePinyinSuffixes": [
+          "zuling",
+          "ling"
+        ],
+        "rowNormalized": "祖灵111110812112120542542542542野外红名主城楼顶腐败森林火圣125倍削韧头13倍伤害1"
+      }
+    },
+    {
+      "id": 57,
+      "order": 57,
+      "sheetRow": 61,
+      "name": "大树守卫",
+      "values": [
+        "大树守卫",
+        "0.9",
+        "0.9",
+        "0.65",
+        "0.9",
+        "0.8",
+        "0.6",
+        "1",
+        "0.6",
+        "80",
+        "252",
+        "154",
+        "154",
+        "252",
+        "野外红名、主城楼顶、腐败森林、第一夜、第二夜",
+        "不可处决",
+        "0.85"
+      ],
+      "search": {
+        "nameNormalized": "大树守卫",
+        "namePinyin": "dashushouwei",
+        "nameInitials": "dssw",
+        "namePinyinSuffixes": [
+          "dashushouwei",
+          "shushouwei",
+          "shouwei",
+          "wei"
+        ],
+        "rowNormalized": "大树守卫090906509080610680252154154252野外红名主城楼顶腐败森林第一夜第二夜不可处决085"
+      }
+    },
+    {
+      "id": 58,
+      "order": 58,
+      "sheetRow": 62,
+      "name": "龙装大树守卫",
+      "values": [
+        "龙装大树守卫",
+        "0.9",
+        "0.9",
+        "0.65",
+        "0.9",
+        "0.8",
+        "0.6",
+        "0.6",
+        "0.8",
+        "80",
+        "252",
+        "154",
+        "154",
+        "252",
+        "野外红名、主城楼顶、腐败森林、第二夜",
+        "不可处决",
+        "0.8"
+      ],
+      "search": {
+        "nameNormalized": "龙装大树守卫",
+        "namePinyin": "longzhuangdashushouwei",
+        "nameInitials": "lzdssw",
+        "namePinyinSuffixes": [
+          "longzhuangdashushouwei",
+          "zhuangdashushouwei",
+          "dashushouwei",
+          "shushouwei",
+          "shouwei",
+          "wei"
+        ],
+        "rowNormalized": "龙装大树守卫0909065090806060880252154154252野外红名主城楼顶腐败森林第二夜不可处决08"
+      }
+    },
+    {
+      "id": 59,
+      "order": 59,
+      "sheetRow": 63,
+      "name": "黄金树化身",
+      "values": [
+        "黄金树化身",
+        "0.9",
+        "1",
+        "0.9",
+        "0.9",
+        "0.8",
+        "1.4",
+        "0.8",
+        "0.6",
+        "120",
+        "免疫",
+        "154",
+        "154",
+        "112",
+        "野外红名、主城楼顶、腐败森林",
+        "火1.4倍削韧；头1.3倍伤害",
+        "0.9"
+      ],
+      "search": {
+        "nameNormalized": "黄金树化身",
+        "namePinyin": "huangjinshuhuashen",
+        "nameInitials": "hjshs",
+        "namePinyinSuffixes": [
+          "huangjinshuhuashen",
+          "jinshuhuashen",
+          "shuhuashen",
+          "huashen",
+          "shen"
+        ],
+        "rowNormalized": "黄金树化身091090908140806120免疫154154112野外红名主城楼顶腐败森林火14倍削韧头13倍伤害09"
+      }
+    },
+    {
+      "id": 60,
+      "order": 60,
+      "sheetRow": 64,
+      "name": "卡利亚禁卫骑士",
+      "values": [
+        "卡利亚禁卫骑士",
+        "0.9",
+        "0.9",
+        "0.9",
+        "0.9",
+        "0.6",
+        "0.6",
+        "1",
+        "0.8",
+        "80",
+        "252",
+        "154",
+        "154",
+        "252",
+        "野外红名、主城楼顶、腐败森林、隐城",
+        "不可处决",
+        "0.9"
+      ],
+      "search": {
+        "nameNormalized": "卡利亚禁卫骑士",
+        "namePinyin": "kaliyajinweiqishi",
+        "nameInitials": "klyjwqs",
+        "namePinyinSuffixes": [
+          "kaliyajinweiqishi",
+          "liyajinweiqishi",
+          "yajinweiqishi",
+          "jinweiqishi",
+          "weiqishi",
+          "qishi",
+          "shi"
+        ],
+        "rowNormalized": "卡利亚禁卫骑士09090909060610880252154154252野外红名主城楼顶腐败森林隐城不可处决09"
+      }
+    },
+    {
+      "id": 61,
+      "order": 61,
+      "sheetRow": 65,
+      "name": "黑剑眷属",
+      "values": [
+        "黑剑眷属",
+        "0.9",
+        "1",
+        "0.65",
+        "0.65",
+        "0.8",
+        "0.6",
+        "0.6",
+        "0.2",
+        "110",
+        "免疫",
+        "免疫",
+        "免疫",
+        "免疫",
+        "野外红名、主城楼顶、腐败森林",
+        "头1.3倍伤害",
+        "0.65"
+      ],
+      "search": {
+        "nameNormalized": "黑剑眷属",
+        "namePinyin": "heijianjuanshu",
+        "nameInitials": "hjjs",
+        "namePinyinSuffixes": [
+          "heijianjuanshu",
+          "jianjuanshu",
+          "juanshu",
+          "shu"
+        ],
+        "rowNormalized": "黑剑眷属09106506508060602110免疫免疫免疫免疫野外红名主城楼顶腐败森林头13倍伤害065"
+      }
+    },
+    {
+      "id": 62,
+      "order": 62,
+      "sheetRow": 66,
+      "name": "熔岩土龙",
+      "values": [
+        "熔岩土龙",
+        "0.9",
+        "0.9",
+        "0.65",
+        "0.9",
+        "0.6",
+        "0.2",
+        "0.6",
+        "0.6",
+        "120",
+        "252",
+        "252",
+        "252",
+        "542",
+        "野外红名、主城楼顶、火山、腐败森林",
+        "龙类；头1.3倍伤害",
+        "0.625"
+      ],
+      "search": {
+        "nameNormalized": "熔岩土龙",
+        "namePinyin": "rongyantulong",
+        "nameInitials": "rytl",
+        "namePinyinSuffixes": [
+          "rongyantulong",
+          "yantulong",
+          "tulong",
+          "long"
+        ],
+        "rowNormalized": "熔岩土龙09090650906020606120252252252542野外红名主城楼顶火山腐败森林龙类头13倍伤害0625"
+      }
+    },
+    {
+      "id": 63,
+      "order": 63,
+      "sheetRow": 67,
+      "name": "丘陵飞龙",
+      "values": [
+        "丘陵飞龙",
+        "0.65",
+        "0.65",
+        "0.65",
+        "0.9",
+        "0.6",
+        "0.6",
+        "0.6",
+        "0.6",
+        "120",
+        "252",
+        "252",
+        "252",
+        "252",
+        "野外红名、隐城",
+        "龙类；头1.3倍伤害",
+        "0.625"
+      ],
+      "search": {
+        "nameNormalized": "丘陵飞龙",
+        "namePinyin": "qiulingfeilong",
+        "nameInitials": "qlfl",
+        "namePinyinSuffixes": [
+          "qiulingfeilong",
+          "lingfeilong",
+          "feilong",
+          "long"
+        ],
+        "rowNormalized": "丘陵飞龙0650650650906060606120252252252252野外红名隐城龙类头13倍伤害0625"
+      }
+    },
+    {
+      "id": 64,
+      "order": 64,
+      "sheetRow": 68,
+      "name": "火焰主教",
+      "values": [
+        "火焰主教",
+        "1",
+        "1",
+        "0.9",
+        "1",
+        "1",
+        "0.6",
+        "0.8",
+        "1.2",
+        "80",
+        "112",
+        "154",
+        "154",
+        "252",
+        "火山",
+        "",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "火焰主教",
+        "namePinyin": "huoyanzhujiao",
+        "nameInitials": "hyzj",
+        "namePinyinSuffixes": [
+          "huoyanzhujiao",
+          "yanzhujiao",
+          "zhujiao",
+          "jiao"
+        ],
+        "rowNormalized": "火焰主教11091106081280112154154252火山1"
+      }
+    },
+    {
+      "id": 65,
+      "order": 65,
+      "sheetRow": 69,
+      "name": "英雄石像鬼",
+      "values": [
+        "英雄石像鬼",
+        "0.9",
+        "1",
+        "0.65",
+        "0.65",
+        "0.8",
+        "0.6",
+        "0.6",
+        "0.6",
+        "110",
+        "免疫",
+        "免疫",
+        "免疫",
+        "免疫",
+        "火山、第一夜",
+        "头1.3倍伤害",
+        "0.65"
+      ],
+      "search": {
+        "nameNormalized": "英雄石像鬼",
+        "namePinyin": "yingxiongshixianggui",
+        "nameInitials": "yxsxg",
+        "namePinyinSuffixes": [
+          "yingxiongshixianggui",
+          "xiongshixianggui",
+          "shixianggui",
+          "xianggui",
+          "gui"
+        ],
+        "rowNormalized": "英雄石像鬼09106506508060606110免疫免疫免疫免疫火山第一夜头13倍伤害065"
+      }
+    },
+    {
+      "id": 66,
+      "order": 66,
+      "sheetRow": 70,
+      "name": "飞龙",
+      "values": [
+        "飞龙",
+        "0.65",
+        "0.65",
+        "0.65",
+        "0.9",
+        "0.6",
+        "0.6",
+        "0.6",
+        "0.6",
+        "80",
+        "252",
+        "252",
+        "252",
+        "252",
+        "火山、雪山",
+        "龙类；头1.3倍伤害",
+        "0.625"
+      ],
+      "search": {
+        "nameNormalized": "飞龙",
+        "namePinyin": "feilong",
+        "nameInitials": "fl",
+        "namePinyinSuffixes": [
+          "feilong",
+          "long"
+        ],
+        "rowNormalized": "飞龙065065065090606060680252252252252火山雪山龙类头13倍伤害0625"
+      }
+    },
+    {
+      "id": 67,
+      "order": 67,
+      "sheetRow": 71,
+      "name": "坠星兽物/坠星成兽",
+      "values": [
+        "坠星兽物/坠星成兽",
+        "0.65",
+        "0.65",
+        "0.65",
+        "0.65",
+        "0.8",
+        "0.8",
+        "0.8",
+        "0.8",
+        "100",
+        "免疫",
+        "252",
+        "252",
+        "免疫",
+        "火山、第二夜、突发事件",
+        "外星生物类；头1.3倍伤害",
+        "0.725"
+      ],
+      "search": {
+        "nameNormalized": "坠星兽物坠星成兽",
+        "namePinyin": "zhuixingshouwuzhuixingchengshou",
+        "nameInitials": "zxswzxcs",
+        "namePinyinSuffixes": [
+          "zhuixingshouwuzhuixingchengshou",
+          "xingshouwuzhuixingchengshou",
+          "shouwuzhuixingchengshou",
+          "wuzhuixingchengshou",
+          "zhuixingchengshou",
+          "xingchengshou",
+          "chengshou",
+          "shou"
+        ],
+        "rowNormalized": "坠星兽物坠星成兽06506506506508080808100免疫252252免疫火山第二夜突发事件外星生物类头13倍伤害0725"
+      }
+    },
+    {
+      "id": 68,
+      "order": 68,
+      "sheetRow": 72,
+      "name": "雪原山妖",
+      "values": [
+        "雪原山妖",
+        "1",
+        "0.9",
+        "1.1",
+        "1",
+        "1",
+        "1.2",
+        "1",
+        "1",
+        "65",
+        "112",
+        "112",
+        "112",
+        "542",
+        "雪山",
+        "火1.25倍削韧；头2倍伤害",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "雪原山妖",
+        "namePinyin": "xueyuanshanyao",
+        "nameInitials": "xysy",
+        "namePinyinSuffixes": [
+          "xueyuanshanyao",
+          "yuanshanyao",
+          "shanyao",
+          "yao"
+        ],
+        "rowNormalized": "雪原山妖1091111121165112112112542雪山火125倍削韧头2倍伤害1"
+      }
+    },
+    {
+      "id": 69,
+      "order": 69,
+      "sheetRow": 73,
+      "name": "巨鸦",
+      "values": [
+        "巨鸦",
+        "1.1",
+        "1.1",
+        "1.4",
+        "1.1",
+        "1.2",
+        "1.4",
+        "1.2",
+        "1.2",
+        "65",
+        "112",
+        "112",
+        "112",
+        "112",
+        "雪山",
+        "魔、雷、圣1.25倍削韧，火1.4倍削韧；头1.3倍伤害",
+        "1.2"
+      ],
+      "search": {
+        "nameNormalized": "巨鸦",
+        "namePinyin": "juya",
+        "nameInitials": "jy",
+        "namePinyinSuffixes": [
+          "juya",
+          "ya"
+        ],
+        "rowNormalized": "巨鸦111114111214121265112112112112雪山魔雷圣125倍削韧火14倍削韧头13倍伤害12"
+      }
+    },
+    {
+      "id": 70,
+      "order": 70,
+      "sheetRow": 74,
+      "name": "亚人剑圣",
+      "values": [
+        "亚人剑圣",
+        "1",
+        "1",
+        "1.2",
+        "1",
+        "1",
+        "1.2",
+        "1",
+        "1",
+        "65",
+        "112",
+        "84",
+        "84",
+        "112",
+        "雪山、第一夜",
+        "火1.25倍削韧；毒、腐败1.1倍削韧",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "亚人剑圣",
+        "namePinyin": "yarenjiansheng",
+        "nameInitials": "yrjs",
+        "namePinyinSuffixes": [
+          "yarenjiansheng",
+          "renjiansheng",
+          "jiansheng",
+          "sheng"
+        ],
+        "rowNormalized": "亚人剑圣1112111211651128484112雪山第一夜火125倍削韧毒腐败11倍削韧1"
+      }
+    },
+    {
+      "id": 71,
+      "order": 71,
+      "sheetRow": 75,
+      "name": "山顶冰龙",
+      "values": [
+        "山顶冰龙",
+        "0.65",
+        "0.9",
+        "0.2",
+        "0.2",
+        "0.6",
+        "0.6",
+        "0.6",
+        "0.6",
+        "120",
+        "252",
+        "252",
+        "252",
+        "542",
+        "雪山",
+        "龙类；头1.3倍伤害",
+        "0.6"
+      ],
+      "search": {
+        "nameNormalized": "山顶冰龙",
+        "namePinyin": "shandingbinglong",
+        "nameInitials": "sdbl",
+        "namePinyinSuffixes": [
+          "shandingbinglong",
+          "dingbinglong",
+          "binglong",
+          "long"
+        ],
+        "rowNormalized": "山顶冰龙06509020206060606120252252252542雪山龙类头13倍伤害06"
+      }
+    },
+    {
+      "id": 72,
+      "order": 72,
+      "sheetRow": 76,
+      "name": "无头山妖",
+      "values": [
+        "无头山妖",
+        "1",
+        "0.9",
+        "1.1",
+        "1",
+        "1",
+        "1.2",
+        "1",
+        "1",
+        "65",
+        "免疫",
+        "免疫",
+        "免疫",
+        "免疫",
+        "隐城",
+        "",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "无头山妖",
+        "namePinyin": "wutoushanyao",
+        "nameInitials": "wtsy",
+        "namePinyinSuffixes": [
+          "wutoushanyao",
+          "toushanyao",
+          "shanyao",
+          "yao"
+        ],
+        "rowNormalized": "无头山妖1091111121165免疫免疫免疫免疫隐城1"
+      }
+    },
+    {
+      "id": 73,
+      "order": 73,
+      "sheetRow": 77,
+      "name": "黑暗弃子",
+      "values": [
+        "黑暗弃子",
+        "0.9",
+        "0.9",
+        "0.9",
+        "0.9",
+        "0.6",
+        "0.6",
+        "0.6",
+        "0.6",
+        "120",
+        "252",
+        "252",
+        "252",
+        "免疫",
+        "隐城",
+        "外星生物类；头部1.2倍，手0.8倍，身体0.6倍伤害",
+        "0.75"
+      ],
+      "search": {
+        "nameNormalized": "黑暗弃子",
+        "namePinyin": "heianqizi",
+        "nameInitials": "haqz",
+        "namePinyinSuffixes": [
+          "heianqizi",
+          "anqizi",
+          "qizi",
+          "zi"
+        ],
+        "rowNormalized": "黑暗弃子0909090906060606120252252252免疫隐城外星生物类头部12倍手08倍身体06倍伤害075"
+      }
+    },
+    {
+      "id": 74,
+      "order": 74,
+      "sheetRow": 78,
+      "name": "提比亚的唤声船",
+      "values": [
+        "提比亚的唤声船",
+        "0.9",
+        "1.4",
+        "0.9",
+        "0.65",
+        "0.8",
+        "0.8",
+        "0.6",
+        "1.4",
+        "80",
+        "免疫",
+        "免疫",
+        "154",
+        "免疫",
+        "第一夜",
+        "不属于死诞者类；圣1.4倍削韧",
+        "0.85"
+      ],
+      "search": {
+        "nameNormalized": "提比亚的唤声船",
+        "namePinyin": "tibiyadehuanshengchuan",
+        "nameInitials": "tbydhsc",
+        "namePinyinSuffixes": [
+          "tibiyadehuanshengchuan",
+          "biyadehuanshengchuan",
+          "yadehuanshengchuan",
+          "dehuanshengchuan",
+          "huanshengchuan",
+          "shengchuan",
+          "chuan"
+        ],
+        "rowNormalized": "提比亚的唤声船0914090650808061480免疫免疫154免疫第一夜不属于死诞者类圣14倍削韧085"
+      }
+    },
+    {
+      "id": 75,
+      "order": 75,
+      "sheetRow": 79,
+      "name": "祖灵之民",
+      "values": [
+        "祖灵之民",
+        "1.1",
+        "1",
+        "1.1",
+        "1.1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "40",
+        "252",
+        "252",
+        "252",
+        "542",
+        "腐败森林、大空洞",
+        "",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "祖灵之民",
+        "namePinyin": "zulingzhimin",
+        "nameInitials": "zlzm",
+        "namePinyinSuffixes": [
+          "zulingzhimin",
+          "lingzhimin",
+          "zhimin",
+          "min"
+        ],
+        "rowNormalized": "祖灵之民1111111111140252252252542腐败森林大空洞1"
+      }
+    },
+    {
+      "id": 76,
+      "order": 76,
+      "sheetRow": 80,
+      "name": "杜鹃骑士",
+      "values": [
+        "杜鹃骑士",
+        "0.9",
+        "0.9",
+        "0.65",
+        "1",
+        "0.6",
+        "0.8",
+        "1",
+        "0.8",
+        "65",
+        "154",
+        "112",
+        "112",
+        "154",
+        "大空洞",
+        "",
+        "0.85"
+      ],
+      "search": {
+        "nameNormalized": "杜鹃骑士",
+        "namePinyin": "dujuanqishi",
+        "nameInitials": "djqs",
+        "namePinyinSuffixes": [
+          "dujuanqishi",
+          "juanqishi",
+          "qishi",
+          "shi"
+        ],
+        "rowNormalized": "杜鹃骑士09090651060810865154112112154大空洞085"
+      }
+    },
+    {
+      "id": 77,
+      "order": 77,
+      "sheetRow": 81,
+      "name": "尊腐骑士",
+      "values": [
+        "尊腐骑士",
+        "0.9",
+        "0.9",
+        "0.65",
+        "1",
+        "0.8",
+        "1.2",
+        "1",
+        "0.6",
+        "65",
+        "154",
+        "252",
+        "252",
+        "154",
+        "大空洞",
+        "火1.25倍削韧",
+        "0.9"
+      ],
+      "search": {
+        "nameNormalized": "尊腐骑士",
+        "namePinyin": "zunfuqishi",
+        "nameInitials": "zfqs",
+        "namePinyinSuffixes": [
+          "zunfuqishi",
+          "fuqishi",
+          "qishi",
+          "shi"
+        ],
+        "rowNormalized": "尊腐骑士09090651081210665154252252154大空洞火125倍削韧09"
+      }
+    },
+    {
+      "id": 78,
+      "order": 78,
+      "sheetRow": 82,
+      "name": "火焰骑士",
+      "values": [
+        "火焰骑士",
+        "0.8",
+        "0.8",
+        "0.6",
+        "1",
+        "0.8",
+        "0.6",
+        "1",
+        "1",
+        "65",
+        "154",
+        "112",
+        "112",
+        "154",
+        "大空洞",
+        "",
+        "0.8"
+      ],
+      "search": {
+        "nameNormalized": "火焰骑士",
+        "namePinyin": "huoyanqishi",
+        "nameInitials": "hyqs",
+        "namePinyinSuffixes": [
+          "huoyanqishi",
+          "yanqishi",
+          "qishi",
+          "shi"
+        ],
+        "rowNormalized": "火焰骑士080806108061165154112112154大空洞08"
+      }
+    },
+    {
+      "id": 79,
+      "order": 79,
+      "sheetRow": 83,
+      "name": "巨型鳌虾",
+      "values": [
+        "巨型鳌虾",
+        "0.9",
+        "1",
+        "0.65",
+        "0.9",
+        "0.8",
+        "0.8",
+        "0.8",
+        "0.8",
+        "80",
+        "154",
+        "154",
+        "154",
+        "84",
+        "大空洞",
+        "冻伤1.1倍削韧",
+        "0.8"
+      ],
+      "search": {
+        "nameNormalized": "巨型鳌虾",
+        "namePinyin": "juxingaoxia",
+        "nameInitials": "jxax",
+        "namePinyinSuffixes": [
+          "juxingaoxia",
+          "xingaoxia",
+          "aoxia",
+          "xia"
+        ],
+        "rowNormalized": "巨型鳌虾09106509080808088015415415484大空洞冻伤11倍削韧08"
+      }
+    },
+    {
+      "id": 80,
+      "order": 80,
+      "sheetRow": 84,
+      "name": "冰寒螯虾",
+      "values": [
+        "冰寒螯虾",
+        "0.9",
+        "1",
+        "0.65",
+        "0.65",
+        "0.8",
+        "1.2",
+        "1",
+        "0.8",
+        "80",
+        "154",
+        "154",
+        "154",
+        "999",
+        "大空洞",
+        "火1.25倍削韧",
+        "0.85"
+      ],
+      "search": {
+        "nameNormalized": "冰寒螯虾",
+        "namePinyin": "binghanaoxia",
+        "nameInitials": "bhax",
+        "namePinyinSuffixes": [
+          "binghanaoxia",
+          "hanaoxia",
+          "aoxia",
+          "xia"
+        ],
+        "rowNormalized": "冰寒螯虾091065065081210880154154154999大空洞火125倍削韧085"
+      }
+    },
+    {
+      "id": 81,
+      "order": 81,
+      "sheetRow": 85,
+      "name": "米兰达之花（癫火）",
+      "values": [
+        "米兰达之花（癫火）",
+        "1",
+        "0.65",
+        "1.4",
+        "1",
+        "1",
+        "0.6",
+        "0.6",
+        "0.6",
+        "100",
+        "252",
+        "542",
+        "252",
+        "63",
+        "大空洞",
+        "冻伤1.25倍削韧",
+        "0.825"
+      ],
+      "search": {
+        "nameNormalized": "米兰达之花癫火",
+        "namePinyin": "milandazhihuadianhuo",
+        "nameInitials": "mldzhdh",
+        "namePinyinSuffixes": [
+          "milandazhihuadianhuo",
+          "landazhihuadianhuo",
+          "dazhihuadianhuo",
+          "zhihuadianhuo",
+          "huadianhuo",
+          "dianhuo",
+          "huo"
+        ],
+        "rowNormalized": "米兰达之花癫火1065141106060610025254225263大空洞冻伤125倍削韧0825"
+      }
+    },
+    {
+      "id": 82,
+      "order": 82,
+      "sheetRow": 86,
+      "name": "米兰达之花（魔力）",
+      "values": [
+        "米兰达之花（魔力）",
+        "1",
+        "0.65",
+        "1.4",
+        "1",
+        "0.6",
+        "1",
+        "1",
+        "0.6",
+        "100",
+        "252",
+        "542",
+        "252",
+        "63",
+        "大空洞",
+        "冻伤1.25倍削韧",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "米兰达之花魔力",
+        "namePinyin": "milandazhihuamoli",
+        "nameInitials": "mldzhml",
+        "namePinyinSuffixes": [
+          "milandazhihuamoli",
+          "landazhihuamoli",
+          "dazhihuamoli",
+          "zhihuamoli",
+          "huamoli",
+          "moli",
+          "li"
+        ],
+        "rowNormalized": "米兰达之花魔力106514106110610025254225263大空洞冻伤125倍削韧1"
+      }
+    },
+    {
+      "id": 83,
+      "order": 83,
+      "sheetRow": 87,
+      "name": "大螃蟹",
+      "values": [
+        "大螃蟹",
+        "0.65",
+        "1",
+        "0.65",
+        "0.65",
+        "0.8",
+        "0.8",
+        "0.8",
+        "0.8",
+        "80",
+        "154",
+        "154",
+        "154",
+        "84",
+        "",
+        "冻伤1.1倍削韧",
+        "0.8"
+      ],
+      "search": {
+        "nameNormalized": "大螃蟹",
+        "namePinyin": "dapangxie",
+        "nameInitials": "dpx",
+        "namePinyinSuffixes": [
+          "dapangxie",
+          "pangxie",
+          "xie"
+        ],
+        "rowNormalized": "大螃蟹0651065065080808088015415415484冻伤11倍削韧08"
+      }
+    },
+    {
+      "id": 84,
+      "order": 84,
+      "sheetRow": 88,
+      "name": "血病巨鸦",
+      "values": [
+        "血病巨鸦",
+        "1",
+        "1.1",
+        "1.4",
+        "1.1",
+        "1.2",
+        "1",
+        "1.2",
+        "1.2",
+        "65",
+        "84",
+        "112",
+        "112",
+        "112",
+        "",
+        "魔、雷、圣1.25倍削韧",
+        "1.15"
+      ],
+      "search": {
+        "nameNormalized": "血病巨鸦",
+        "namePinyin": "xuebingjuya",
+        "nameInitials": "xbjy",
+        "namePinyinSuffixes": [
+          "xuebingjuya",
+          "bingjuya",
+          "juya",
+          "ya"
+        ],
+        "rowNormalized": "血病巨鸦111141112112126584112112112魔雷圣125倍削韧115"
+      }
+    },
+    {
+      "id": 85,
+      "order": 85,
+      "sheetRow": 89,
+      "name": "挖石山妖",
+      "values": [
+        "挖石山妖",
+        "1",
+        "1",
+        "1.1",
+        "1",
+        "1",
+        "0.8",
+        "1",
+        "1",
+        "65",
+        "112",
+        "112",
+        "112",
+        "154",
+        "",
+        "",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "挖石山妖",
+        "namePinyin": "washishanyao",
+        "nameInitials": "wssy",
+        "namePinyinSuffixes": [
+          "washishanyao",
+          "shishanyao",
+          "shanyao",
+          "yao"
+        ],
+        "rowNormalized": "挖石山妖1111110811651121121121541"
+      }
+    },
+    {
+      "id": 86,
+      "order": 86,
+      "sheetRow": 90,
+      "name": "鲜血君王",
+      "values": [
+        "鲜血君王",
+        "0.9",
+        "0.9",
+        "0.9",
+        "0.9",
+        "0.6",
+        "0.2",
+        "0.6",
+        "0.6",
+        "110",
+        "112",
+        "252",
+        "252",
+        "252",
+        "",
+        "",
+        "0.75"
+      ],
+      "search": {
+        "nameNormalized": "鲜血君王",
+        "namePinyin": "xianxuejunwang",
+        "nameInitials": "xxjw",
+        "namePinyinSuffixes": [
+          "xianxuejunwang",
+          "xuejunwang",
+          "junwang",
+          "wang"
+        ],
+        "rowNormalized": "鲜血君王0909090906020606110112252252252075"
+      }
+    },
+    {
+      "id": 87,
+      "order": 87,
+      "sheetRow": 91,
+      "name": "腐败化身",
+      "values": [
+        "腐败化身",
+        "0.9",
+        "1",
+        "0.9",
+        "0.8",
+        "0.8",
+        "2",
+        "0.8",
+        "0.6",
+        "120",
+        "999",
+        "999",
+        "999",
+        "154",
+        "",
+        "火1.4倍削韧",
+        "0.85"
+      ],
+      "search": {
+        "nameNormalized": "腐败化身",
+        "namePinyin": "fubaihuashen",
+        "nameInitials": "fbhs",
+        "namePinyinSuffixes": [
+          "fubaihuashen",
+          "baihuashen",
+          "huashen",
+          "shen"
+        ],
+        "rowNormalized": "腐败化身09109080820806120999999999154火14倍削韧085"
+      }
+    },
+    {
+      "id": 88,
+      "order": 88,
+      "sheetRow": 92,
+      "name": "恶兆猎人",
+      "values": [
+        "恶兆猎人",
+        "1",
+        "1",
+        "1",
+        "1",
+        "0.8",
+        "0.6",
+        "0.8",
+        "0.8",
+        "75",
+        "112",
+        "252",
+        "252",
+        "112",
+        "",
+        "",
+        "0.9"
+      ],
+      "search": {
+        "nameNormalized": "恶兆猎人",
+        "namePinyin": "ezhaolieren",
+        "nameInitials": "ezlr",
+        "namePinyinSuffixes": [
+          "ezhaolieren",
+          "zhaolieren",
+          "lieren",
+          "ren"
+        ],
+        "rowNormalized": "恶兆猎人1111080608087511225225211209"
+      }
+    },
+    {
+      "id": 89,
+      "order": 89,
+      "sheetRow": 93,
+      "name": "咒剑士",
+      "values": [
+        "咒剑士",
+        "1",
+        "1",
+        "1.2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "85",
+        "112",
+        "112",
+        "112",
+        "112",
+        "",
+        "",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "咒剑士",
+        "namePinyin": "zhoujianshi",
+        "nameInitials": "zjs",
+        "namePinyinSuffixes": [
+          "zhoujianshi",
+          "jianshi",
+          "shi"
+        ],
+        "rowNormalized": "咒剑士111211111851121121121121"
+      }
+    },
+    {
+      "id": 90,
+      "order": 90,
+      "sheetRow": 94,
+      "name": "死骑士",
+      "values": [
+        "死骑士",
+        "0.6",
+        "0.6",
+        "0.6",
+        "0.8",
+        "0.6",
+        "0.8",
+        "0.6",
+        "1",
+        "80",
+        "999",
+        "252",
+        "252",
+        "252",
+        "",
+        "",
+        "0.6"
+      ],
+      "search": {
+        "nameNormalized": "死骑士",
+        "namePinyin": "siqishi",
+        "nameInitials": "sqs",
+        "namePinyinSuffixes": [
+          "siqishi",
+          "qishi",
+          "shi"
+        ],
+        "rowNormalized": "死骑士0606060806080618099925225225206"
+      }
+    },
+    {
+      "id": 91,
+      "order": 91,
+      "sheetRow": 95,
+      "name": "血怪之首",
+      "values": [
+        "血怪之首",
+        "1",
+        "1",
+        "1.2",
+        "1",
+        "0.8",
+        "0.6",
+        "0.8",
+        "0.8",
+        "80",
+        "252",
+        "112",
+        "112",
+        "112",
+        "",
+        "",
+        "0.9"
+      ],
+      "search": {
+        "nameNormalized": "血怪之首",
+        "namePinyin": "xueguaizhishou",
+        "nameInitials": "xgzs",
+        "namePinyinSuffixes": [
+          "xueguaizhishou",
+          "guaizhishou",
+          "zhishou",
+          "shou"
+        ],
+        "rowNormalized": "血怪之首11121080608088025211211211209"
+      }
+    },
+    {
+      "id": 92,
+      "order": 92,
+      "sheetRow": 96,
+      "name": "蜘蛛蝎群",
+      "values": [
+        "蜘蛛蝎群",
+        "0.75",
+        "1",
+        "0.55",
+        "0.75",
+        "0.8",
+        "1.2",
+        "0.8",
+        "0.8",
+        "65",
+        "154",
+        "252",
+        "252",
+        "84",
+        "",
+        "火1.25倍削韧，冻伤1.1倍削韧",
+        "0.8"
+      ],
+      "search": {
+        "nameNormalized": "蜘蛛蝎群",
+        "namePinyin": "zhizhuxiequn",
+        "nameInitials": "zzxq",
+        "namePinyinSuffixes": [
+          "zhizhuxiequn",
+          "zhuxiequn",
+          "xiequn",
+          "qun"
+        ],
+        "rowNormalized": "蜘蛛蝎群0751055075081208086515425225284火125倍削韧冻伤11倍削韧08"
+      }
+    },
+    {
+      "id": 93,
+      "order": 93,
+      "sheetRow": 97,
+      "name": "角战士/神兽战士/神鸟战士",
+      "values": [
+        "角战士/神兽战士/神鸟战士",
+        "0.6",
+        "0.6",
+        "0.6",
+        "1",
+        "0.8",
+        "0.8",
+        "0.8",
+        "1",
+        "80",
+        "112",
+        "112",
+        "112",
+        "112",
+        "",
+        "",
+        "0.8"
+      ],
+      "search": {
+        "nameNormalized": "角战士神兽战士神鸟战士",
+        "namePinyin": "jiaozhanshishenshouzhanshishenniaozhanshi",
+        "nameInitials": "jzssszssnzs",
+        "namePinyinSuffixes": [
+          "jiaozhanshishenshouzhanshishenniaozhanshi",
+          "zhanshishenshouzhanshishenniaozhanshi",
+          "shishenshouzhanshishenniaozhanshi",
+          "shenshouzhanshishenniaozhanshi",
+          "shouzhanshishenniaozhanshi",
+          "zhanshishenniaozhanshi",
+          "shishenniaozhanshi",
+          "shenniaozhanshi",
+          "niaozhanshi",
+          "zhanshi",
+          "shi"
+        ],
+        "rowNormalized": "角战士神兽战士神鸟战士060606108080818011211211211208"
+      }
+    },
+    {
+      "id": 94,
+      "order": 94,
+      "sheetRow": 98,
+      "name": "神兽舞狮",
+      "values": [
+        "神兽舞狮",
+        "0.7",
+        "0.7",
+        "0.8",
+        "1",
+        "0.6",
+        "1",
+        "0.6",
+        "0.6",
+        "120",
+        "112",
+        "154",
+        "112",
+        "252",
+        "",
+        "",
+        "0.7"
+      ],
+      "search": {
+        "nameNormalized": "神兽舞狮",
+        "namePinyin": "shenshouwushi",
+        "nameInitials": "ssws",
+        "namePinyinSuffixes": [
+          "shenshouwushi",
+          "shouwushi",
+          "wushi",
+          "shi"
+        ],
+        "rowNormalized": "神兽舞狮0707081061060612011215411225207"
+      }
+    },
+    {
+      "id": 95,
+      "order": 95,
+      "sheetRow": 99,
+      "name": "拷问官",
+      "values": [
+        "拷问官",
+        "0.9",
+        "0.75",
+        "1.2",
+        "1",
+        "0.9",
+        "1.2",
+        "0.9",
+        "0.9",
+        "80",
+        "112",
+        "112",
+        "112",
+        "112",
+        "",
+        "火1.25倍削韧",
+        "0.9"
+      ],
+      "search": {
+        "nameNormalized": "拷问官",
+        "namePinyin": "kaowenguan",
+        "nameInitials": "kwg",
+        "namePinyinSuffixes": [
+          "kaowenguan",
+          "wenguan",
+          "guan"
+        ],
+        "rowNormalized": "拷问官090751210912090980112112112112火125倍削韧09"
+      }
+    },
+    {
+      "id": 96,
+      "order": 96,
+      "sheetRow": 100,
+      "name": "拷问老者",
+      "values": [
+        "拷问老者",
+        "0.9",
+        "0.9",
+        "1.2",
+        "1",
+        "0.9",
+        "1.2",
+        "0.9",
+        "0.9",
+        "80",
+        "112",
+        "112",
+        "112",
+        "112",
+        "",
+        "火1.25倍削韧",
+        "0.9"
+      ],
+      "search": {
+        "nameNormalized": "拷问老者",
+        "namePinyin": "kaowenlaozhe",
+        "nameInitials": "kwlz",
+        "namePinyinSuffixes": [
+          "kaowenlaozhe",
+          "wenlaozhe",
+          "laozhe",
+          "zhe"
+        ],
+        "rowNormalized": "拷问老者09091210912090980112112112112火125倍削韧09"
+      }
+    },
+    {
+      "id": 97,
+      "order": 97,
+      "sheetRow": 101,
+      "name": "大红熊",
+      "values": [
+        "大红熊",
+        "1",
+        "1",
+        "1.1",
+        "1",
+        "1",
+        "1.2",
+        "1",
+        "1",
+        "120",
+        "252",
+        "154",
+        "154",
+        "252",
+        "",
+        "火1.25倍削韧",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "大红熊",
+        "namePinyin": "dahongxiong",
+        "nameInitials": "dhx",
+        "namePinyinSuffixes": [
+          "dahongxiong",
+          "hongxiong",
+          "xiong"
+        ],
+        "rowNormalized": "大红熊1111111211120252154154252火125倍削韧1"
+      }
+    },
+    {
+      "id": 98,
+      "order": 98,
+      "sheetRow": 102,
+      "name": "灵火龙",
+      "values": [
+        "灵火龙",
+        "0.65",
+        "0.9",
+        "0.55",
+        "0.6",
+        "0.4",
+        "0.6",
+        "0.6",
+        "1.1",
+        "120",
+        "999",
+        "999",
+        "252",
+        "999",
+        "",
+        "死诞者类；圣1.25倍削韧",
+        "0.6"
+      ],
+      "search": {
+        "nameNormalized": "灵火龙",
+        "namePinyin": "linghuolong",
+        "nameInitials": "lhl",
+        "namePinyinSuffixes": [
+          "linghuolong",
+          "huolong",
+          "long"
+        ],
+        "rowNormalized": "灵火龙065090550604060611120999999252999死诞者类圣125倍削韧06"
+      }
+    },
+    {
+      "id": 99,
+      "order": 99,
+      "sheetRow": 103,
+      "name": "“接肢”君王",
+      "values": [
+        "“接肢”君王",
+        "1",
+        "1",
+        "1",
+        "1",
+        "0.8",
+        "0.8",
+        "0.8",
+        "0.6",
+        "105",
+        "154",
+        "154",
+        "154",
+        "154",
+        "第一夜",
+        "头1.3倍伤害",
+        "0.9"
+      ],
+      "search": {
+        "nameNormalized": "接肢君王",
+        "namePinyin": "jiezhijunwang",
+        "nameInitials": "jzjw",
+        "namePinyinSuffixes": [
+          "jiezhijunwang",
+          "zhijunwang",
+          "junwang",
+          "wang"
+        ],
+        "rowNormalized": "接肢君王111108080806105154154154154第一夜头13倍伤害09"
+      }
+    },
+    {
+      "id": 100,
+      "order": 100,
+      "sheetRow": 104,
+      "name": "贪食魔龙",
+      "values": [
+        "贪食魔龙",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1.1",
+        "1.15",
+        "1.2",
+        "1.1",
+        "120",
+        "154",
+        "免疫",
+        "免疫",
+        "154",
+        "第一夜",
+        "古龙类；魔、火、雷、圣1.25倍削韧",
+        "1.05"
+      ],
+      "search": {
+        "nameNormalized": "贪食魔龙",
+        "namePinyin": "tanshimolong",
+        "nameInitials": "tsml",
+        "namePinyinSuffixes": [
+          "tanshimolong",
+          "shimolong",
+          "molong",
+          "long"
+        ],
+        "rowNormalized": "贪食魔龙1111111151211120154免疫免疫154第一夜古龙类魔火雷圣125倍削韧105"
+      }
+    },
+    {
+      "id": 101,
+      "order": 101,
+      "sheetRow": 105,
+      "name": "百足恶魔",
+      "values": [
+        "百足恶魔",
+        "1",
+        "1.1",
+        "1",
+        "1",
+        "1.2",
+        "0.2",
+        "1.1",
+        "1.1",
+        "110",
+        "252",
+        "252",
+        "252",
+        "252",
+        "第一夜",
+        "魔、雷、圣1.25倍削韧",
+        "1.05"
+      ],
+      "search": {
+        "nameNormalized": "百足恶魔",
+        "namePinyin": "baizuemo",
+        "nameInitials": "bzem",
+        "namePinyinSuffixes": [
+          "baizuemo",
+          "zuemo",
+          "emo",
+          "mo"
+        ],
+        "rowNormalized": "百足恶魔1111112021111110252252252252第一夜魔雷圣125倍削韧105"
+      }
+    },
+    {
+      "id": 102,
+      "order": 102,
+      "sheetRow": 106,
+      "name": "骑士亚尔特留斯",
+      "values": [
+        "骑士亚尔特留斯",
+        "1",
+        "1.1",
+        "0.9",
+        "1",
+        "0.85",
+        "0.9",
+        "1.1",
+        "1.1",
+        "150",
+        "542",
+        "542",
+        "542",
+        "542",
+        "第二夜",
+        "雷、圣1.25倍削韧",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "骑士亚尔特留斯",
+        "namePinyin": "qishiyaerteliusi",
+        "nameInitials": "qsyetls",
+        "namePinyinSuffixes": [
+          "qishiyaerteliusi",
+          "shiyaerteliusi",
+          "yaerteliusi",
+          "erteliusi",
+          "teliusi",
+          "liusi",
+          "si"
+        ],
+        "rowNormalized": "骑士亚尔特留斯111091085091111150542542542542第二夜雷圣125倍削韧1"
+      }
+    },
+    {
+      "id": 103,
+      "order": 103,
+      "sheetRow": 107,
+      "name": "公爵的夫雷迪亚",
+      "values": [
+        "公爵的夫雷迪亚",
+        "0.84",
+        "1.1",
+        "0.93",
+        "0.7",
+        "0.5",
+        "0.7",
+        "0.5",
+        "0.5",
+        "100",
+        "252",
+        "免疫",
+        "252",
+        "252",
+        "第一夜",
+        "只有打头能造成伤害",
+        "0.7"
+      ],
+      "search": {
+        "nameNormalized": "公爵的夫雷迪亚",
+        "namePinyin": "gongjuedefuleidiya",
+        "nameInitials": "gjdfldy",
+        "namePinyinSuffixes": [
+          "gongjuedefuleidiya",
+          "juedefuleidiya",
+          "defuleidiya",
+          "fuleidiya",
+          "leidiya",
+          "diya",
+          "ya"
+        ],
+        "rowNormalized": "公爵的夫雷迪亚084110930705070505100252免疫252252第一夜只有打头能造成伤害07"
+      }
+    },
+    {
+      "id": 104,
+      "order": 104,
+      "sheetRow": 108,
+      "name": "镕铁恶魔",
+      "values": [
+        "镕铁恶魔",
+        "1.1",
+        "1.1",
+        "0.94",
+        "0.92",
+        "0.7",
+        "0.2",
+        "0.7",
+        "0.7",
+        "100",
+        "免疫",
+        "154",
+        "154",
+        "252",
+        "第一夜",
+        "",
+        "0.81"
+      ],
+      "search": {
+        "nameNormalized": "镕铁恶魔",
+        "namePinyin": "rongtieemo",
+        "nameInitials": "rtem",
+        "namePinyinSuffixes": [
+          "rongtieemo",
+          "tieemo",
+          "emo",
+          "mo"
+        ],
+        "rowNormalized": "镕铁恶魔111109409207020707100免疫154154252第一夜081"
+      }
+    },
+    {
+      "id": 105,
+      "order": 105,
+      "sheetRow": 109,
+      "name": "战地老将/偏地老将",
+      "values": [
+        "战地老将/偏地老将",
+        "0.9",
+        "0.9",
+        "0.65",
+        "1",
+        "0.8",
+        "0.8",
+        "0.8",
+        "0.8",
+        "90",
+        "154",
+        "154",
+        "154",
+        "154",
+        "第一夜、第二夜",
+        "头1.3倍伤害",
+        "0.8"
+      ],
+      "search": {
+        "nameNormalized": "战地老将偏地老将",
+        "namePinyin": "zhandilaojiangpiandilaojiang",
+        "nameInitials": "zdljpdlj",
+        "namePinyinSuffixes": [
+          "zhandilaojiangpiandilaojiang",
+          "dilaojiangpiandilaojiang",
+          "laojiangpiandilaojiang",
+          "jiangpiandilaojiang",
+          "piandilaojiang",
+          "dilaojiang",
+          "laojiang",
+          "jiang"
+        ],
+        "rowNormalized": "战地老将偏地老将090906510808080890154154154154第一夜第二夜头13倍伤害08"
+      }
+    },
+    {
+      "id": 106,
+      "order": 106,
+      "sheetRow": 110,
+      "name": "恶兆妖鬼",
+      "values": [
+        "恶兆妖鬼",
+        "1",
+        "1",
+        "1.1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "0.6",
+        "80",
+        "154",
+        "154",
+        "154",
+        "154",
+        "第二夜、突发事件",
+        "",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "恶兆妖鬼",
+        "namePinyin": "ezhaoyaogui",
+        "nameInitials": "ezyg",
+        "namePinyinSuffixes": [
+          "ezhaoyaogui",
+          "zhaoyaogui",
+          "yaogui",
+          "gui"
+        ],
+        "rowNormalized": "恶兆妖鬼111111110680154154154154第二夜突发事件1"
+      }
+    },
+    {
+      "id": 107,
+      "order": 107,
+      "sheetRow": 111,
+      "name": "大土龙",
+      "values": [
+        "大土龙",
+        "0.9",
+        "0.9",
+        "0.65",
+        "0.9",
+        "0.6",
+        "0.2",
+        "0.6",
+        "0.6",
+        "120",
+        "252",
+        "252",
+        "252",
+        "542",
+        "第二夜",
+        "龙类；头1.3倍伤害",
+        "0.625"
+      ],
+      "search": {
+        "nameNormalized": "大土龙",
+        "namePinyin": "datulong",
+        "nameInitials": "dtl",
+        "namePinyinSuffixes": [
+          "datulong",
+          "tulong",
+          "long"
+        ],
+        "rowNormalized": "大土龙09090650906020606120252252252542第二夜龙类头13倍伤害0625"
+      }
+    },
+    {
+      "id": 108,
+      "order": 108,
+      "sheetRow": 112,
+      "name": "风暴之王（无名的龙）",
+      "values": [
+        "风暴之王（无名的龙）",
+        "0.8",
+        "0.82",
+        "0.79",
+        "0.98",
+        "0.9",
+        "0.65",
+        "1.31",
+        "1",
+        "80",
+        "252",
+        "252",
+        "252",
+        "154",
+        "第二夜",
+        "古龙类；头1.3倍伤害",
+        "0.86"
+      ],
+      "search": {
+        "nameNormalized": "风暴之王无名的龙",
+        "namePinyin": "fengbaozhiwangwumingdelong",
+        "nameInitials": "fbzwwmdl",
+        "namePinyinSuffixes": [
+          "fengbaozhiwangwumingdelong",
+          "baozhiwangwumingdelong",
+          "zhiwangwumingdelong",
+          "wangwumingdelong",
+          "wumingdelong",
+          "mingdelong",
+          "delong",
+          "long"
+        ],
+        "rowNormalized": "风暴之王无名的龙0808207909809065131180252252252154第二夜古龙类头13倍伤害086"
+      }
+    },
+    {
+      "id": 109,
+      "order": 109,
+      "sheetRow": 113,
+      "name": "无名王者",
+      "values": [
+        "无名王者",
+        "0.79",
+        "0.81",
+        "0.78",
+        "0.8",
+        "0.76",
+        "0.77",
+        "0.17",
+        "1.08",
+        "100",
+        "252",
+        "免疫",
+        "252",
+        "252",
+        "第二夜",
+        "圣1.25倍削韧",
+        "0.785"
+      ],
+      "search": {
+        "nameNormalized": "无名王者",
+        "namePinyin": "wumingwangzhe",
+        "nameInitials": "wmwz",
+        "namePinyinSuffixes": [
+          "wumingwangzhe",
+          "mingwangzhe",
+          "wangzhe",
+          "zhe"
+        ],
+        "rowNormalized": "无名王者07908107808076077017108100252免疫252252第二夜圣125倍削韧0785"
+      }
+    },
+    {
+      "id": 110,
+      "order": 110,
+      "sheetRow": 114,
+      "name": "冷冽谷的舞娘",
+      "values": [
+        "冷冽谷的舞娘",
+        "0.8",
+        "0.81",
+        "0.78",
+        "0.8",
+        "0.81",
+        "0.82",
+        "0.83",
+        "1.26",
+        "100",
+        "252",
+        "免疫",
+        "252",
+        "免疫",
+        "第二夜",
+        "圣1.25倍削韧",
+        "0.81"
+      ],
+      "search": {
+        "nameNormalized": "冷冽谷的舞娘",
+        "namePinyin": "lengliegudewuniang",
+        "nameInitials": "llgdwn",
+        "namePinyinSuffixes": [
+          "lengliegudewuniang",
+          "liegudewuniang",
+          "gudewuniang",
+          "dewuniang",
+          "wuniang",
+          "niang"
+        ],
+        "rowNormalized": "冷冽谷的舞娘0808107808081082083126100252免疫252免疫第二夜圣125倍削韧081"
+      }
+    },
+    {
+      "id": 111,
+      "order": 111,
+      "sheetRow": 115,
+      "name": "负伤恶魔/洞底恶魔/恶魔王子",
+      "values": [
+        "负伤恶魔/洞底恶魔/恶魔王子",
+        "1",
+        "0.99",
+        "1.18",
+        "1.02",
+        "0.8",
+        "0.22",
+        "0.78",
+        "0.83",
+        "120",
+        "252",
+        "999",
+        "542",
+        "999",
+        "",
+        "",
+        "0.91"
+      ],
+      "search": {
+        "nameNormalized": "负伤恶魔洞底恶魔恶魔王子",
+        "namePinyin": "fushangemodongdiemoemowangzi",
+        "nameInitials": "fsemddememwz",
+        "namePinyinSuffixes": [
+          "fushangemodongdiemoemowangzi",
+          "shangemodongdiemoemowangzi",
+          "emodongdiemoemowangzi",
+          "modongdiemoemowangzi",
+          "dongdiemoemowangzi",
+          "diemoemowangzi",
+          "emoemowangzi",
+          "moemowangzi",
+          "emowangzi",
+          "mowangzi",
+          "wangzi",
+          "zi"
+        ],
+        "rowNormalized": "负伤恶魔洞底恶魔恶魔王子109911810208022078083120252999542999091"
+      }
+    },
+    {
+      "id": 112,
+      "order": 112,
+      "sheetRow": 116,
+      "name": "“黑夜野兽”格拉狄乌斯",
+      "values": [
+        "“黑夜野兽”格拉狄乌斯",
+        "1",
+        "1",
+        "1",
+        "1.1",
+        "1",
+        "0.5",
+        "1",
+        "1.35",
+        "120",
+        "252",
+        "542",
+        "252",
+        "542",
+        "夜王、突发事件",
+        "圣1.4倍削韧；头1.5倍伤害",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "黑夜野兽格拉狄乌斯",
+        "namePinyin": "heiyeyeshougeladiwusi",
+        "nameInitials": "hyysgldws",
+        "namePinyinSuffixes": [
+          "heiyeyeshougeladiwusi",
+          "yeyeshougeladiwusi",
+          "yeshougeladiwusi",
+          "shougeladiwusi",
+          "geladiwusi",
+          "ladiwusi",
+          "diwusi",
+          "wusi",
+          "si"
+        ],
+        "rowNormalized": "黑夜野兽格拉狄乌斯111111051135120252542252542夜王突发事件圣14倍削韧头15倍伤害1"
+      }
+    },
+    {
+      "id": 113,
+      "order": 113,
+      "sheetRow": 117,
+      "name": "“黑夜之爵”艾德雷",
+      "values": [
+        "“黑夜之爵”艾德雷",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "0.8",
+        "0.5",
+        "1",
+        "150",
+        "542",
+        "154",
+        "154",
+        "154",
+        "夜王",
+        "龙类；头1.3倍伤害；毒、冻伤1.25倍削韧",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "黑夜之爵艾德雷",
+        "namePinyin": "heiyezhijueaidelei",
+        "nameInitials": "hyzjadl",
+        "namePinyinSuffixes": [
+          "heiyezhijueaidelei",
+          "yezhijueaidelei",
+          "zhijueaidelei",
+          "jueaidelei",
+          "aidelei",
+          "delei",
+          "lei"
+        ],
+        "rowNormalized": "黑夜之爵艾德雷1111108051150542154154154夜王龙类头13倍伤害毒冻伤125倍削韧1"
+      }
+    },
+    {
+      "id": 114,
+      "order": 114,
+      "sheetRow": 118,
+      "name": "“黑夜之智”格诺斯塔",
+      "values": [
+        "“黑夜之智”格诺斯塔",
+        "1.15",
+        "1.15",
+        "1.25",
+        "1.25",
+        "0.5",
+        "1.4",
+        "0.9",
+        "0.9",
+        "100",
+        "154",
+        "542",
+        "154",
+        "154",
+        "夜王、突发事件",
+        "突发事件慧心虫无限韧性；火、冻伤1.4倍削韧；头1.3倍伤害",
+        "1.15"
+      ],
+      "search": {
+        "nameNormalized": "黑夜之智格诺斯塔",
+        "namePinyin": "heiyezhizhigenuosita",
+        "nameInitials": "hyzzgnst",
+        "namePinyinSuffixes": [
+          "heiyezhizhigenuosita",
+          "yezhizhigenuosita",
+          "zhizhigenuosita",
+          "zhigenuosita",
+          "genuosita",
+          "nuosita",
+          "sita",
+          "ta"
+        ],
+        "rowNormalized": "黑夜之智格诺斯塔11511512512505140909100154542154154夜王突发事件突发事件慧心虫无限韧性火冻伤14倍削韧头13倍伤害115"
+      }
+    },
+    {
+      "id": 115,
+      "order": 115,
+      "sheetRow": 119,
+      "name": "“坚盾”弗堤士",
+      "values": [
+        "“坚盾”弗堤士",
+        "0.9",
+        "1.2",
+        "0.8",
+        "1.1",
+        "0.9",
+        "1.35",
+        "0.9",
+        "0.9",
+        "150",
+        "154",
+        "252",
+        "154",
+        "154",
+        "夜王",
+        "火、冻伤1.4倍削韧；不可处决",
+        "0.9"
+      ],
+      "search": {
+        "nameNormalized": "坚盾弗堤士",
+        "namePinyin": "jiandunfudishi",
+        "nameInitials": "jdfds",
+        "namePinyinSuffixes": [
+          "jiandunfudishi",
+          "dunfudishi",
+          "fudishi",
+          "dishi",
+          "shi"
+        ],
+        "rowNormalized": "坚盾弗堤士09120811091350909150154252154154夜王火冻伤14倍削韧不可处决09"
+      }
+    },
+    {
+      "id": 116,
+      "order": 116,
+      "sheetRow": 120,
+      "name": "“超越之光”亚尼姆斯",
+      "values": [
+        "“超越之光”亚尼姆斯",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "100",
+        "免疫",
+        "免疫",
+        "免疫",
+        "免疫",
+        "夜王",
+        "",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "超越之光亚尼姆斯",
+        "namePinyin": "chaoyuezhiguangyanimusi",
+        "nameInitials": "cyzgynms",
+        "namePinyinSuffixes": [
+          "chaoyuezhiguangyanimusi",
+          "yuezhiguangyanimusi",
+          "zhiguangyanimusi",
+          "guangyanimusi",
+          "yanimusi",
+          "nimusi",
+          "musi",
+          "si"
+        ],
+        "rowNormalized": "超越之光亚尼姆斯11111111100免疫免疫免疫免疫夜王1"
+      }
+    },
+    {
+      "id": 117,
+      "order": 117,
+      "sheetRow": 121,
+      "name": "“深海黑夜”玛利斯",
+      "values": [
+        "“深海黑夜”玛利斯",
+        "1",
+        "0.8",
+        "1.15",
+        "0.9",
+        "0.8",
+        "0.5",
+        "1.4",
+        "0.85",
+        "150",
+        "免疫",
+        "免疫",
+        "252",
+        "252",
+        "夜王、突发事件",
+        "外星生物类；头1.3倍伤害",
+        "0.875"
+      ],
+      "search": {
+        "nameNormalized": "深海黑夜玛利斯",
+        "namePinyin": "shenhaiheiyemalisi",
+        "nameInitials": "shhymls",
+        "namePinyinSuffixes": [
+          "shenhaiheiyemalisi",
+          "haiheiyemalisi",
+          "heiyemalisi",
+          "yemalisi",
+          "malisi",
+          "lisi",
+          "si"
+        ],
+        "rowNormalized": "深海黑夜玛利斯10811509080514085150免疫免疫252252夜王突发事件外星生物类头13倍伤害0875"
+      }
+    },
+    {
+      "id": 118,
+      "order": 118,
+      "sheetRow": 122,
+      "name": "“黑夜之魔”利普拉",
+      "values": [
+        "“黑夜之魔”利普拉",
+        "1",
+        "1",
+        "1.1",
+        "1",
+        "0.8",
+        "1.2",
+        "1",
+        "1.35",
+        "120",
+        "252",
+        "154",
+        "154",
+        "252",
+        "夜王、突发事件",
+        "可被发狂，发狂抗性112；火1.25倍削韧，圣1.4倍削韧；头1.3倍伤害",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "黑夜之魔利普拉",
+        "namePinyin": "heiyezhimolipula",
+        "nameInitials": "hyzmlpl",
+        "namePinyinSuffixes": [
+          "heiyezhimolipula",
+          "yezhimolipula",
+          "zhimolipula",
+          "molipula",
+          "lipula",
+          "pula",
+          "la"
+        ],
+        "rowNormalized": "黑夜之魔利普拉1111108121135120252154154252夜王突发事件可被发狂发狂抗性112火125倍削韧圣14倍削韧头13倍伤害1"
+      }
+    },
+    {
+      "id": 119,
+      "order": 119,
+      "sheetRow": 123,
+      "name": "“黑夜光骑士”弗格尔",
+      "values": [
+        "“黑夜光骑士”弗格尔",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1.2",
+        "0.7",
+        "155",
+        "154",
+        "154",
+        "154",
+        "154",
+        "夜王",
+        "雷1.4倍削韧",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "黑夜光骑士弗格尔",
+        "namePinyin": "heiyeguangqishifugeer",
+        "nameInitials": "hygqsfge",
+        "namePinyinSuffixes": [
+          "heiyeguangqishifugeer",
+          "yeguangqishifugeer",
+          "guangqishifugeer",
+          "qishifugeer",
+          "shifugeer",
+          "fugeer",
+          "geer",
+          "er"
+        ],
+        "rowNormalized": "黑夜光骑士弗格尔1111111207155154154154154夜王雷14倍削韧1"
+      }
+    },
+    {
+      "id": 120,
+      "order": 120,
+      "sheetRow": 124,
+      "name": "“黑夜雾霾”卡莉果",
+      "values": [
+        "“黑夜雾霾”卡莉果",
+        "1",
+        "1.15",
+        "0.85",
+        "0.9",
+        "0.8",
+        "1.35",
+        "0.8",
+        "0.8",
+        "160",
+        "252",
+        "252",
+        "252",
+        "542",
+        "夜王、突发事件",
+        "古龙类；头1倍，手、身体、翅膀0.8倍，尾巴0.7倍，后腿0.6倍伤害",
+        "0.875"
+      ],
+      "search": {
+        "nameNormalized": "黑夜雾霾卡莉果",
+        "namePinyin": "heiyewumaikaliguo",
+        "nameInitials": "hywmklg",
+        "namePinyinSuffixes": [
+          "heiyewumaikaliguo",
+          "yewumaikaliguo",
+          "wumaikaliguo",
+          "maikaliguo",
+          "kaliguo",
+          "liguo",
+          "guo"
+        ],
+        "rowNormalized": "黑夜雾霾卡莉果111508509081350808160252252252542夜王突发事件古龙类头1倍手身体翅膀08倍尾巴07倍后腿06倍伤害0875"
+      }
+    },
+    {
+      "id": 121,
+      "order": 121,
+      "sheetRow": 125,
+      "name": "黑夜轮廓",
+      "values": [
+        "黑夜轮廓",
+        "1",
+        "0.9",
+        "1.15",
+        "1.1",
+        "1",
+        "1.2",
+        "1",
+        "1.35",
+        "130",
+        "免疫",
+        "免疫",
+        "252",
+        "免疫",
+        "夜王",
+        "火1.25倍削韧，圣1.4倍削韧；头1.3倍伤害",
+        "1.05"
+      ],
+      "search": {
+        "nameNormalized": "黑夜轮廓",
+        "namePinyin": "heiyelunkuo",
+        "nameInitials": "hylk",
+        "namePinyinSuffixes": [
+          "heiyelunkuo",
+          "yelunkuo",
+          "lunkuo",
+          "kuo"
+        ],
+        "rowNormalized": "黑夜轮廓109115111121135130免疫免疫252免疫夜王火125倍削韧圣14倍削韧头13倍伤害105"
+      }
+    },
+    {
+      "id": 122,
+      "order": 122,
+      "sheetRow": 126,
+      "name": "“黑夜王”布德奇冥",
+      "values": [
+        "“黑夜王”布德奇冥",
+        "1",
+        "1.1",
+        "0.9",
+        "1.15",
+        "1",
+        "1",
+        "1.2",
+        "1.2",
+        "130",
+        "免疫",
+        "免疫",
+        "252",
+        "免疫",
+        "夜王",
+        "雷、圣1.25倍削韧；头1.3倍伤害",
+        "1.05"
+      ],
+      "search": {
+        "nameNormalized": "黑夜王布德奇冥",
+        "namePinyin": "heiyewangbudeqiming",
+        "nameInitials": "hywbdqm",
+        "namePinyinSuffixes": [
+          "heiyewangbudeqiming",
+          "yewangbudeqiming",
+          "wangbudeqiming",
+          "budeqiming",
+          "deqiming",
+          "qiming",
+          "ming"
+        ],
+        "rowNormalized": "黑夜王布德奇冥11109115111212130免疫免疫252免疫夜王雷圣125倍削韧头13倍伤害105"
+      }
+    },
+    {
+      "id": 123,
+      "order": 123,
+      "sheetRow": 127,
+      "name": "反叛的/冲动的史柴格斯",
+      "values": [
+        "反叛的/冲动的史柴格斯",
+        "1",
+        "1",
+        "1.1",
+        "1.1",
+        "1",
+        "1.2",
+        "0.9",
+        "1.25",
+        "150",
+        "252",
+        "542",
+        "542",
+        "252",
+        "夜王",
+        "火、圣1.25倍削韧",
+        "1.05"
+      ],
+      "search": {
+        "nameNormalized": "反叛的冲动的史柴格斯",
+        "namePinyin": "fanpandechongdongdeshichaigesi",
+        "nameInitials": "fpdcddscgs",
+        "namePinyinSuffixes": [
+          "fanpandechongdongdeshichaigesi",
+          "pandechongdongdeshichaigesi",
+          "dechongdongdeshichaigesi",
+          "chongdongdeshichaigesi",
+          "dongdeshichaigesi",
+          "deshichaigesi",
+          "shichaigesi",
+          "chaigesi",
+          "gesi",
+          "si"
+        ],
+        "rowNormalized": "反叛的冲动的史柴格斯11111111209125150252542542252夜王火圣125倍削韧105"
+      }
+    },
+    {
+      "id": 124,
+      "order": 124,
+      "sheetRow": 128,
+      "name": "哈尔莫妮亚",
+      "values": [
+        "哈尔莫妮亚",
+        "1",
+        "1.1",
+        "0.92",
+        "1",
+        "1",
+        "0.92",
+        "0.9",
+        "0.7",
+        "75或100",
+        "252",
+        "252",
+        "252",
+        "252",
+        "夜王、突发事件",
+        "单个强化的个体100韧",
+        "0.96"
+      ],
+      "search": {
+        "nameNormalized": "哈尔莫妮亚",
+        "namePinyin": "haermoniya",
+        "nameInitials": "hemny",
+        "namePinyinSuffixes": [
+          "haermoniya",
+          "ermoniya",
+          "moniya",
+          "niya",
+          "ya"
+        ],
+        "rowNormalized": "哈尔莫妮亚11109211092090775或100252252252252夜王突发事件单个强化的个体100韧096"
+      }
+    },
+    {
+      "id": 125,
+      "order": 125,
+      "sheetRow": 129,
+      "name": "哈尔莫妮亚（聚合体）",
+      "values": [
+        "哈尔莫妮亚（聚合体）",
+        "1",
+        "1",
+        "1.1",
+        "1.1",
+        "1",
+        "1",
+        "1",
+        "0.6",
+        "75",
+        "154",
+        "252",
+        "252",
+        "154",
+        "",
+        "",
+        "1"
+      ],
+      "search": {
+        "nameNormalized": "哈尔莫妮亚聚合体",
+        "namePinyin": "haermoniyajuheti",
+        "nameInitials": "hemnyjht",
+        "namePinyinSuffixes": [
+          "haermoniyajuheti",
+          "ermoniyajuheti",
+          "moniyajuheti",
+          "niyajuheti",
+          "yajuheti",
+          "juheti",
+          "heti",
+          "ti"
+        ],
+        "rowNormalized": "哈尔莫妮亚聚合体11111111106751542522521541"
+      }
+    }
+  ]
+}
