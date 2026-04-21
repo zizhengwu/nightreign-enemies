@@ -1,12 +1,6 @@
 const data = window.MONSTER_RESISTANCE_DATA;
 
 const elements = {
-  title: document.querySelector("#page-title"),
-  subtitle: document.querySelector("#page-subtitle"),
-  sheetName: document.querySelector("#sheet-name"),
-  rowCount: document.querySelector("#row-count"),
-  legendText: document.querySelector("#legend-text"),
-  resultSummary: document.querySelector("#result-summary"),
   searchInput: document.querySelector("#search-input"),
   tableHead: document.querySelector("#table-head"),
   tableBody: document.querySelector("#table-body"),
@@ -89,21 +83,15 @@ function filterRows(query) {
 function updateTable() {
   const rows = filterRows(elements.searchInput.value);
   renderRows(rows);
-  elements.resultSummary.textContent = `显示 ${rows.length} / ${data.rows.length} 条`;
 }
 
 function bootstrap() {
   if (!data) {
-    elements.resultSummary.textContent = "数据加载失败";
+    elements.tableBody.innerHTML = `<tr><td class="empty-state" colspan="1">数据加载失败</td></tr>`;
     return;
   }
 
   document.title = data.title || "怪物抗性表";
-  elements.title.textContent = data.title || "怪物抗性表";
-  elements.subtitle.textContent = "离线静态页面，直接打开 index.html 即可浏览和搜索整行抗性数据。";
-  elements.sheetName.textContent = data.sheetName || "-";
-  elements.rowCount.textContent = `${data.rows.length} 条`;
-  elements.legendText.textContent = data.legend.join(" / ") || "-";
 
   renderHeader(data.headers);
   updateTable();

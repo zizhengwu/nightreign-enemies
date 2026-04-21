@@ -1,60 +1,31 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>怪物抗性表</title>
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
-    <div class="page-shell">
-      <header class="hero">
-        <div>
-          <p class="eyebrow">Local Static Site</p>
-          <h1 id="page-title">怪物抗性表</h1>
-          <p id="page-subtitle" class="subtitle"></p>
-        </div>
-        <div class="search-panel">
-          <label class="search-label" for="search-input">搜索怪物</label>
-          <input
-            id="search-input"
-            type="search"
-            placeholder="支持中文、全拼、首字母，例如：鲜血 / xianxue / xxjw / junwang"
-            autocomplete="off"
-          />
-          <div class="search-hint">
-            <span id="result-summary">正在加载数据…</span>
-            <span>优先匹配“怪物名称”</span>
-          </div>
-        </div>
-      </header>
 
-      <section class="meta-strip">
-        <div class="meta-card">
-          <span class="meta-label">工作表</span>
-          <strong id="sheet-name">-</strong>
-        </div>
-        <div class="meta-card">
-          <span class="meta-label">数据条目</span>
-          <strong id="row-count">-</strong>
-        </div>
-        <div class="meta-card">
-          <span class="meta-label">抗性标签</span>
-          <strong id="legend-text">-</strong>
-        </div>
-      </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>怪物抗性表</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
 
-      <section class="table-panel">
-        <div class="table-wrap">
-          <table id="data-table">
-            <thead id="table-head"></thead>
-            <tbody id="table-body"></tbody>
-          </table>
-        </div>
-      </section>
-    </div>
+<body>
+  <div class="page-shell">
+    <section class="search-panel">
+      <input id="search-input" type="search" placeholder="搜索怪物" autocomplete="off" aria-label="搜索怪物" />
+    </section>
 
-    <script src="./data.js"></script>
-    <script src="./app.js"></script>
-  </body>
+    <section class="table-panel">
+      <div class="table-wrap">
+        <table id="data-table">
+          <thead id="table-head"></thead>
+          <tbody id="table-body"></tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <script src="./data.js"></script>
+  <script src="./app.js"></script>
+</body>
+
 </html>
