@@ -1,5 +1,5 @@
 const data = window.MONSTER_RESISTANCE_DATA;
-const HIDDEN_HEADERS = new Set(["出现地点（暂未更新）"]);
+const HIDDEN_HEADERS = new Set(["出现地点（暂未更新）", "抗性中位数"]);
 const DAMAGE_RESISTANCE_HEADERS = new Set(["普", "打", "斩", "刺", "魔", "火", "雷", "圣"]);
 const STATUS_RESISTANCE_HEADERS = new Set(["血", "毒", "腐败", "冰"]);
 const RESISTANCE_CATEGORY_CLASS_BY_LABEL = {
