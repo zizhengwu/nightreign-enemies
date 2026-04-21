@@ -102,8 +102,9 @@ function renderCell(header, value, row) {
   const categoryLabel = getResistanceCategoryLabel(header, value, row);
   const categoryClass = getResistanceCategoryClass(categoryLabel);
   const classAttribute = categoryClass ? ` class="${categoryClass}"` : "";
+  const displayValue = value === "免疫" ? "X" : value;
 
-  return `<td${classAttribute}>${escapeHtml(value)}</td>`;
+  return `<td${classAttribute}>${escapeHtml(displayValue)}</td>`;
 }
 
 function renderHeader(headers) {
