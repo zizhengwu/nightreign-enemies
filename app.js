@@ -1,10 +1,21 @@
 const data = window.MONSTER_RESISTANCE_DATA;
+const HIDDEN_HEADERS = new Set(["出现地点（暂未更新）"]);
 
 const elements = {
   searchInput: document.querySelector("#search-input"),
   tableHead: document.querySelector("#table-head"),
   tableBody: document.querySelector("#table-body"),
 };
+
+function getVisibleColumnIndexes(headers) {
+  return headers.reduce((indexes, header, index) => {
+    if (!HIDDEN_HEADERS.has(header)) {
+      indexes.push(index);
+    }
+
+    return indexes;
+  }, []);
+}
 
 function normalizeText(value) {
   return String(value || "")
@@ -22,14 +33,18 @@ function escapeHtml(value) {
 }
 
 function renderHeader(headers) {
-  elements.tableHead.innerHTML = `<tr>${headers
+  const visibleHeaders = headers.filter((header) => !HIDDEN_HEADERS.has(header));
+
+  elements.tableHead.innerHTML = `<tr>${visibleHeaders
     .map((header) => `<th>${escapeHtml(header)}</th>`)
     .join("")}</tr>`;
 }
 
 function renderRows(rows) {
+  const visibleColumnIndexes = getVisibleColumnIndexes(data.headers);
+
   if (!rows.length) {
-    elements.tableBody.innerHTML = `<tr><td class="empty-state" colspan="${data.headers.length}">没有匹配结果</td></tr>`;
+    elements.tableBody.innerHTML = `<tr><td class="empty-state" colspan="${visibleColumnIndexes.length}">没有匹配结果</td></tr>`;
     return;
   }
 
@@ -37,7 +52,7 @@ function renderRows(rows) {
     .map(
       (row) => `
         <tr>
-          ${row.values.map((value) => `<td>${escapeHtml(value)}</td>`).join("")}
+          ${visibleColumnIndexes.map((index) => `<td>${escapeHtml(row.values[index])}</td>`).join("")}
         </tr>
       `
     )
