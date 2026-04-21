@@ -1,11 +1,32 @@
 const data = window.MONSTER_RESISTANCE_DATA;
 const HIDDEN_HEADERS = new Set(["出现地点（暂未更新）"]);
+const DAMAGE_RESISTANCE_HEADERS = new Set(["普", "打", "斩", "刺", "魔", "火", "雷", "圣"]);
+const STATUS_RESISTANCE_HEADERS = new Set(["血", "毒", "腐败", "冰"]);
+const RESISTANCE_CATEGORY_CLASS_BY_LABEL = {
+  大抵抗: "resistance-tier-great-resist",
+  抵抗: "resistance-tier-resist",
+  正常: "resistance-tier-normal",
+  弱点: "resistance-tier-weak",
+  大弱点: "resistance-tier-great-weak",
+};
+const STATUS_RESISTANCE_LABEL_BY_VALUE = {
+  63: "大弱点",
+  84: "大弱点",
+  112: "弱点",
+  154: "正常",
+  252: "抵抗",
+  542: "大抵抗",
+  999: "大抵抗",
+};
+const MEDIAN_HEADER = "抗性中位数";
 
 const elements = {
   searchInput: document.querySelector("#search-input"),
   tableHead: document.querySelector("#table-head"),
   tableBody: document.querySelector("#table-body"),
 };
+
+const medianColumnIndex = data?.headers?.indexOf(MEDIAN_HEADER) ?? -1;
 
 function getVisibleColumnIndexes(headers) {
   return headers.reduce((indexes, header, index) => {
@@ -32,6 +53,59 @@ function escapeHtml(value) {
     .replaceAll("'", "&#39;");
 }
 
+function toNumericValue(value) {
+  const numericValue = Number(value);
+  return Number.isFinite(numericValue) ? numericValue : null;
+}
+
+function getResistanceCategoryClass(label) {
+  return RESISTANCE_CATEGORY_CLASS_BY_LABEL[label] || "";
+}
+
+function getDamageResistanceCategoryLabel(value, row) {
+  const numericValue = toNumericValue(value);
+  const medianValue = medianColumnIndex >= 0 ? toNumericValue(row.values[medianColumnIndex]) : null;
+
+  if (numericValue === null || medianValue === null) {
+    return null;
+  }
+
+  if (numericValue < medianValue * 0.7) return "大抵抗";
+  if (numericValue < medianValue * 0.9) return "抵抗";
+  if (numericValue > medianValue * 1.25) return "大弱点";
+  if (numericValue > medianValue * 1.1) return "弱点";
+
+  return "正常";
+}
+
+function getStatusResistanceCategoryLabel(value) {
+  return STATUS_RESISTANCE_LABEL_BY_VALUE[String(value)] || null;
+}
+
+function getResistanceCategoryLabel(header, value, row) {
+  if (RESISTANCE_CATEGORY_CLASS_BY_LABEL[value]) {
+    return value;
+  }
+
+  if (DAMAGE_RESISTANCE_HEADERS.has(header)) {
+    return getDamageResistanceCategoryLabel(value, row);
+  }
+
+  if (STATUS_RESISTANCE_HEADERS.has(header)) {
+    return getStatusResistanceCategoryLabel(value);
+  }
+
+  return null;
+}
+
+function renderCell(header, value, row) {
+  const categoryLabel = getResistanceCategoryLabel(header, value, row);
+  const categoryClass = getResistanceCategoryClass(categoryLabel);
+  const classAttribute = categoryClass ? ` class="${categoryClass}"` : "";
+
+  return `<td${classAttribute}>${escapeHtml(value)}</td>`;
+}
+
 function renderHeader(headers) {
   const visibleHeaders = headers.filter((header) => !HIDDEN_HEADERS.has(header));
 
@@ -52,7 +126,7 @@ function renderRows(rows) {
     .map(
       (row) => `
         <tr>
-          ${visibleColumnIndexes.map((index) => `<td>${escapeHtml(row.values[index])}</td>`).join("")}
+          ${visibleColumnIndexes.map((index) => renderCell(data.headers[index], row.values[index], row)).join("")}
         </tr>
       `
     )

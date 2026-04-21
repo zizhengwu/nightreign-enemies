@@ -139,6 +139,26 @@ tbody td:first-child {
   color: #f8fbff;
 }
 
+#data-table tbody td.resistance-tier-great-resist {
+  color: #e3a15f;
+}
+
+#data-table tbody td.resistance-tier-resist {
+  color: #f2dfd2;
+}
+
+#data-table tbody td.resistance-tier-normal {
+  color: #ffffff;
+}
+
+#data-table tbody td.resistance-tier-weak {
+  color: #cfe8cf;
+}
+
+#data-table tbody td.resistance-tier-great-weak {
+  color: #2f6b2f;
+}
+
 .empty-state {
   padding: 36px 18px;
   text-align: center;
