@@ -4,8 +4,32 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
   <title>怪物抗性表</title>
-  <link rel="stylesheet" href="./styles.css" />
+  <script>
+    const assetVersion = Date.now().toString();
+
+    function appendStylesheet(href) {
+      const stylesheet = document.createElement("link");
+      stylesheet.rel = "stylesheet";
+      stylesheet.href = `${href}?v=${assetVersion}`;
+      document.head.appendChild(stylesheet);
+    }
+
+    function appendScript(src) {
+      return new Promise((resolve, reject) => {
+        const script = document.createElement("script");
+        script.src = `${src}?v=${assetVersion}`;
+        script.onload = resolve;
+        script.onerror = () => reject(new Error(`Failed to load script: ${src}`));
+        document.body.appendChild(script);
+      });
+    }
+
+    appendStylesheet("./styles.css");
+  </script>
 </head>
 
 <body>
@@ -24,8 +48,13 @@
     </section>
   </div>
 
-  <script src="./data.js"></script>
-  <script src="./app.js"></script>
+  <script>
+    appendScript("./data.js")
+      .then(() => appendScript("./app.js"))
+      .catch((error) => {
+        console.error(error);
+      });
+  </script>
 </body>
 
 </html>
