@@ -140,23 +140,31 @@ tbody td:first-child {
 }
 
 #data-table tbody td.resistance-tier-great-resist {
-  color: #e3a15f;
+  color: #ff6b6b;
+  font-weight: 600;
+  text-shadow: 0 0 8px rgba(255, 107, 107, 0.22);
 }
 
 #data-table tbody td.resistance-tier-resist {
-  color: #f2dfd2;
+  color: #ff9c66;
+  font-weight: 600;
+  text-shadow: 0 0 8px rgba(255, 156, 102, 0.18);
 }
 
 #data-table tbody td.resistance-tier-normal {
-  color: #ffffff;
+  color: #cbd5e1;
 }
 
 #data-table tbody td.resistance-tier-weak {
-  color: #cfe8cf;
+  color: #7ee787;
+  font-weight: 600;
+  text-shadow: 0 0 8px rgba(126, 231, 135, 0.2);
 }
 
 #data-table tbody td.resistance-tier-great-weak {
-  color: #2f6b2f;
+  color: #3fb950;
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(63, 185, 80, 0.24);
 }
 
 .empty-state {
