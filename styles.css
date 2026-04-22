@@ -109,11 +109,6 @@ body {
   box-shadow: 0 0 0 4px var(--accent-soft);
 }
 
-#clear-search-button:disabled {
-  opacity: 0.5;
-  cursor: default;
-}
-
 .table-panel {
   border-radius: 16px;
   overflow: hidden;

@@ -174,12 +174,13 @@ function filterRows(query) {
 function updateTable() {
   const rows = filterRows(elements.searchInput.value);
   renderRows(rows);
-  elements.clearSearchButton.disabled = !elements.searchInput.value;
 }
 
 function clearSearch() {
-  elements.searchInput.value = "";
-  updateTable();
+  if (elements.searchInput.value) {
+    elements.searchInput.value = "";
+    updateTable();
+  }
   elements.searchInput.focus();
   elements.searchInput.setSelectionRange(0, 0);
 }
