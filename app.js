@@ -22,6 +22,7 @@ const MEDIAN_HEADER = "抗性中位数";
 
 const elements = {
   searchInput: document.querySelector("#search-input"),
+  clearSearchButton: document.querySelector("#clear-search-button"),
   tableHead: document.querySelector("#table-head"),
   tableBody: document.querySelector("#table-body"),
 };
@@ -173,6 +174,14 @@ function filterRows(query) {
 function updateTable() {
   const rows = filterRows(elements.searchInput.value);
   renderRows(rows);
+  elements.clearSearchButton.disabled = !elements.searchInput.value;
+}
+
+function clearSearch() {
+  elements.searchInput.value = "";
+  updateTable();
+  elements.searchInput.focus();
+  elements.searchInput.setSelectionRange(0, 0);
 }
 
 function bootstrap() {
@@ -187,6 +196,7 @@ function bootstrap() {
   updateTable();
 
   elements.searchInput.addEventListener("input", updateTable);
+  elements.clearSearchButton.addEventListener("click", clearSearch);
 }
 
 bootstrap();

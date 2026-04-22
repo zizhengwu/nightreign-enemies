@@ -58,8 +58,15 @@ body {
   border-radius: 14px;
 }
 
+.search-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
 #search-input {
-  width: 100%;
+  flex: 1 1 auto;
+  min-width: 0;
   padding: 14px 16px;
   border: 1px solid var(--border);
   border-radius: 12px;
@@ -78,6 +85,33 @@ body {
   border-color: var(--accent-strong);
   box-shadow: 0 0 0 4px var(--accent-soft);
   background: rgba(10, 16, 25, 0.98);
+}
+
+#clear-search-button {
+  flex: 0 0 auto;
+  padding: 14px 18px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: rgba(8, 14, 22, 0.9);
+  color: var(--text);
+  font-size: 15px;
+  cursor: pointer;
+  transition: border-color 160ms ease, box-shadow 160ms ease, background-color 160ms ease, color 160ms ease;
+}
+
+#clear-search-button:hover {
+  border-color: var(--border-strong);
+  background: rgba(12, 19, 29, 0.98);
+}
+
+#clear-search-button:focus-visible {
+  border-color: var(--accent-strong);
+  box-shadow: 0 0 0 4px var(--accent-soft);
+}
+
+#clear-search-button:disabled {
+  opacity: 0.5;
+  cursor: default;
 }
 
 .table-panel {
@@ -201,6 +235,14 @@ tbody td:first-child {
     top: 8px;
     margin-bottom: 8px;
     padding: 8px;
+  }
+
+  .search-controls {
+    gap: 8px;
+  }
+
+  #clear-search-button {
+    padding: 14px 16px;
   }
 
   .table-wrap {
